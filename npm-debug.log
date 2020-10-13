@@ -1,0 +1,2841 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'upgrade' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 silly mapToRegistry name discloud-status
+5 silly mapToRegistry using default registry
+6 silly mapToRegistry registry https://registry.npmjs.org/
+7 silly mapToRegistry uri https://registry.npmjs.org/discloud-status
+8 silly mapToRegistry name discord.js
+9 silly mapToRegistry using default registry
+10 silly mapToRegistry registry https://registry.npmjs.org/
+11 silly mapToRegistry uri https://registry.npmjs.org/discord.js
+12 silly mapToRegistry name discord.js-musicbot-addon
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry uri https://registry.npmjs.org/discord.js-musicbot-addon
+16 silly mapToRegistry name fs
+17 silly mapToRegistry using default registry
+18 silly mapToRegistry registry https://registry.npmjs.org/
+19 silly mapToRegistry uri https://registry.npmjs.org/fs
+20 silly mapToRegistry name get-youtube-id
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry uri https://registry.npmjs.org/get-youtube-id
+24 silly mapToRegistry name isgd
+25 silly mapToRegistry using default registry
+26 silly mapToRegistry registry https://registry.npmjs.org/
+27 silly mapToRegistry uri https://registry.npmjs.org/isgd
+28 silly mapToRegistry name lowdb
+29 silly mapToRegistry using default registry
+30 silly mapToRegistry registry https://registry.npmjs.org/
+31 silly mapToRegistry uri https://registry.npmjs.org/lowdb
+32 silly mapToRegistry name mal-scraper
+33 silly mapToRegistry using default registry
+34 silly mapToRegistry registry https://registry.npmjs.org/
+35 silly mapToRegistry uri https://registry.npmjs.org/mal-scraper
+36 silly mapToRegistry name moment
+37 silly mapToRegistry using default registry
+38 silly mapToRegistry registry https://registry.npmjs.org/
+39 silly mapToRegistry uri https://registry.npmjs.org/moment
+40 silly mapToRegistry name ms
+41 silly mapToRegistry using default registry
+42 silly mapToRegistry registry https://registry.npmjs.org/
+43 silly mapToRegistry uri https://registry.npmjs.org/ms
+44 silly mapToRegistry name opusscript
+45 silly mapToRegistry using default registry
+46 silly mapToRegistry registry https://registry.npmjs.org/
+47 silly mapToRegistry uri https://registry.npmjs.org/opusscript
+48 silly mapToRegistry name simple-youtube-api
+49 silly mapToRegistry using default registry
+50 silly mapToRegistry registry https://registry.npmjs.org/
+51 silly mapToRegistry uri https://registry.npmjs.org/simple-youtube-api
+52 silly mapToRegistry name snekfetch
+53 silly mapToRegistry using default registry
+54 silly mapToRegistry registry https://registry.npmjs.org/
+55 silly mapToRegistry uri https://registry.npmjs.org/snekfetch
+56 silly mapToRegistry name youtube-info
+57 silly mapToRegistry using default registry
+58 silly mapToRegistry registry https://registry.npmjs.org/
+59 silly mapToRegistry uri https://registry.npmjs.org/youtube-info
+60 silly mapToRegistry name youtube-node
+61 silly mapToRegistry using default registry
+62 silly mapToRegistry registry https://registry.npmjs.org/
+63 silly mapToRegistry uri https://registry.npmjs.org/youtube-node
+64 silly mapToRegistry name ytdl-core
+65 silly mapToRegistry using default registry
+66 silly mapToRegistry registry https://registry.npmjs.org/
+67 silly mapToRegistry uri https://registry.npmjs.org/ytdl-core
+68 silly mapToRegistry name ytdl-core-discord
+69 silly mapToRegistry using default registry
+70 silly mapToRegistry registry https://registry.npmjs.org/
+71 silly mapToRegistry uri https://registry.npmjs.org/ytdl-core-discord
+72 silly mapToRegistry name ffmpeg-binaries
+73 silly mapToRegistry using default registry
+74 silly mapToRegistry registry https://registry.npmjs.org/
+75 silly mapToRegistry uri https://registry.npmjs.org/ffmpeg-binaries
+76 verbose request uri https://registry.npmjs.org/discloud-status
+77 verbose request no auth needed
+78 info attempt registry request try #1 at 09:39:43
+79 verbose request using bearer token for auth
+80 verbose request id 44d4e7c3f840aa03
+81 verbose etag W/"24fe048fdbf9d10eb2d945072ff2f213"
+82 verbose lastModified Wed, 13 Nov 2019 18:20:29 GMT
+83 http request GET https://registry.npmjs.org/discloud-status
+84 verbose request uri https://registry.npmjs.org/discord.js-musicbot-addon
+85 verbose request no auth needed
+86 info attempt registry request try #1 at 09:39:43
+87 verbose request using bearer token for auth
+88 verbose etag W/"e8f6c56d60cb92b62994202aab7ce10c"
+89 verbose lastModified Sat, 28 Mar 2020 03:06:55 GMT
+90 http request GET https://registry.npmjs.org/discord.js-musicbot-addon
+91 verbose request uri https://registry.npmjs.org/fs
+92 verbose request no auth needed
+93 info attempt registry request try #1 at 09:39:43
+94 verbose request using bearer token for auth
+95 verbose etag W/"31ff75b0a60ab91d49b89bbf50a6b2b6"
+96 verbose lastModified Fri, 15 Nov 2019 23:33:29 GMT
+97 http request GET https://registry.npmjs.org/fs
+98 verbose request uri https://registry.npmjs.org/lowdb
+99 verbose request no auth needed
+100 info attempt registry request try #1 at 09:39:43
+101 verbose request using bearer token for auth
+102 verbose etag W/"d7ff1b38ef7aab6dc6dcda855fc3506b"
+103 verbose lastModified Sat, 07 Dec 2019 11:25:13 GMT
+104 http request GET https://registry.npmjs.org/lowdb
+105 verbose request uri https://registry.npmjs.org/discord.js
+106 verbose request no auth needed
+107 info attempt registry request try #1 at 09:39:43
+108 verbose request using bearer token for auth
+109 verbose etag W/"60d0f2cdd7db82c471c85944c09128b8"
+110 verbose lastModified Mon, 28 Sep 2020 08:27:41 GMT
+111 http request GET https://registry.npmjs.org/discord.js
+112 verbose request uri https://registry.npmjs.org/get-youtube-id
+113 verbose request no auth needed
+114 info attempt registry request try #1 at 09:39:43
+115 verbose request using bearer token for auth
+116 verbose etag W/"3c309c751fe860c35c16a2e5b820b9c4"
+117 verbose lastModified Thu, 24 Jan 2019 16:45:18 GMT
+118 http request GET https://registry.npmjs.org/get-youtube-id
+119 verbose request uri https://registry.npmjs.org/isgd
+120 verbose request no auth needed
+121 info attempt registry request try #1 at 09:39:43
+122 verbose request using bearer token for auth
+123 verbose etag W/"6081bca3578813a0d4860ed1d3459c21"
+124 verbose lastModified Sun, 27 May 2018 05:00:29 GMT
+125 http request GET https://registry.npmjs.org/isgd
+126 verbose request uri https://registry.npmjs.org/mal-scraper
+127 verbose request no auth needed
+128 info attempt registry request try #1 at 09:39:43
+129 verbose request using bearer token for auth
+130 verbose etag W/"7661958dc55e1076582b1c95b69cc771"
+131 verbose lastModified Mon, 05 Oct 2020 18:10:42 GMT
+132 http request GET https://registry.npmjs.org/mal-scraper
+133 verbose request uri https://registry.npmjs.org/moment
+134 verbose request no auth needed
+135 info attempt registry request try #1 at 09:39:43
+136 verbose request using bearer token for auth
+137 verbose etag W/"5302c00bc8b4428cf859b0d86a4882b6"
+138 verbose lastModified Tue, 06 Oct 2020 11:21:33 GMT
+139 http request GET https://registry.npmjs.org/moment
+140 verbose request uri https://registry.npmjs.org/opusscript
+141 verbose request no auth needed
+142 info attempt registry request try #1 at 09:39:43
+143 verbose request using bearer token for auth
+144 verbose etag W/"4eeff78179746fe0c73b9cc764078e54"
+145 verbose lastModified Thu, 08 Aug 2019 22:07:30 GMT
+146 http request GET https://registry.npmjs.org/opusscript
+147 verbose request uri https://registry.npmjs.org/ms
+148 verbose request no auth needed
+149 info attempt registry request try #1 at 09:39:43
+150 verbose request using bearer token for auth
+151 verbose etag W/"255fc63d5282b4bcda078fb562a7139e"
+152 verbose lastModified Tue, 22 Sep 2020 19:00:33 GMT
+153 http request GET https://registry.npmjs.org/ms
+154 verbose request uri https://registry.npmjs.org/simple-youtube-api
+155 verbose request no auth needed
+156 info attempt registry request try #1 at 09:39:43
+157 verbose request using bearer token for auth
+158 verbose etag W/"e0e5783649b391f52f09dd3e62dd72fa"
+159 verbose lastModified Tue, 02 Jun 2020 16:48:09 GMT
+160 http request GET https://registry.npmjs.org/simple-youtube-api
+161 verbose request uri https://registry.npmjs.org/youtube-node
+162 verbose request no auth needed
+163 info attempt registry request try #1 at 09:39:43
+164 verbose request using bearer token for auth
+165 verbose etag W/"e90f69f55a773e3f07f5aa755f61ee6f"
+166 verbose lastModified Tue, 29 Jan 2019 21:12:03 GMT
+167 http request GET https://registry.npmjs.org/youtube-node
+168 verbose request uri https://registry.npmjs.org/snekfetch
+169 verbose request no auth needed
+170 info attempt registry request try #1 at 09:39:43
+171 verbose request using bearer token for auth
+172 verbose etag W/"be371346bb3e8afa0e68ad22c70132be"
+173 verbose lastModified Fri, 20 Jul 2018 03:17:09 GMT
+174 http request GET https://registry.npmjs.org/snekfetch
+175 verbose request uri https://registry.npmjs.org/youtube-info
+176 verbose request no auth needed
+177 info attempt registry request try #1 at 09:39:43
+178 verbose request using bearer token for auth
+179 verbose etag W/"e152a2098b0dea0382456073473fef93"
+180 verbose lastModified Sat, 05 Jan 2019 20:30:44 GMT
+181 http request GET https://registry.npmjs.org/youtube-info
+182 verbose request uri https://registry.npmjs.org/ffmpeg-binaries
+183 verbose request no auth needed
+184 info attempt registry request try #1 at 09:39:43
+185 verbose request using bearer token for auth
+186 verbose etag W/"75854ccd9806f05fb0fd0c48b0374d0a"
+187 verbose lastModified Wed, 29 May 2019 03:28:27 GMT
+188 http request GET https://registry.npmjs.org/ffmpeg-binaries
+189 verbose request uri https://registry.npmjs.org/ytdl-core-discord
+190 verbose request no auth needed
+191 info attempt registry request try #1 at 09:39:43
+192 verbose request using bearer token for auth
+193 verbose etag W/"3b7c66c316d8e5549af20cea4f37cfbf"
+194 verbose lastModified Wed, 23 Sep 2020 10:36:31 GMT
+195 http request GET https://registry.npmjs.org/ytdl-core-discord
+196 verbose request uri https://registry.npmjs.org/ytdl-core
+197 verbose request no auth needed
+198 info attempt registry request try #1 at 09:39:43
+199 verbose request using bearer token for auth
+200 verbose etag W/"e605fc8f7466d51e5efdb4d5aef4895e"
+201 verbose lastModified Fri, 25 Sep 2020 04:50:14 GMT
+202 http request GET https://registry.npmjs.org/ytdl-core
+203 http 304 https://registry.npmjs.org/ms
+204 verbose headers { date: 'Thu, 08 Oct 2020 12:39:43 GMT',
+204 verbose headers   connection: 'keep-alive',
+204 verbose headers   'set-cookie':
+204 verbose headers    [ '__cfduid=daa60a8b1ef4eff8f526a159343310e6a1602160783; expires=Sat, 07-Nov-20 12:39:43 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+204 verbose headers   'cf-ray': '5defed232c91f79e-EZE',
+204 verbose headers   age: '4215',
+204 verbose headers   'cache-control': 'public, max-age=300',
+204 verbose headers   etag: '"255fc63d5282b4bcda078fb562a7139e"',
+204 verbose headers   'last-modified': 'Tue, 22 Sep 2020 19:00:33 GMT',
+204 verbose headers   vary: 'Accept-Encoding',
+204 verbose headers   'cf-cache-status': 'HIT',
+204 verbose headers   'cf-request-id': '05a9d289f90000f79e05076200000001',
+204 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+204 verbose headers   server: 'cloudflare' }
+205 silly get cb [ 304,
+205 silly get   { date: 'Thu, 08 Oct 2020 12:39:43 GMT',
+205 silly get     connection: 'keep-alive',
+205 silly get     'set-cookie':
+205 silly get      [ '__cfduid=daa60a8b1ef4eff8f526a159343310e6a1602160783; expires=Sat, 07-Nov-20 12:39:43 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+205 silly get     'cf-ray': '5defed232c91f79e-EZE',
+205 silly get     age: '4215',
+205 silly get     'cache-control': 'public, max-age=300',
+205 silly get     etag: '"255fc63d5282b4bcda078fb562a7139e"',
+205 silly get     'last-modified': 'Tue, 22 Sep 2020 19:00:33 GMT',
+205 silly get     vary: 'Accept-Encoding',
+205 silly get     'cf-cache-status': 'HIT',
+205 silly get     'cf-request-id': '05a9d289f90000f79e05076200000001',
+205 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+205 silly get     server: 'cloudflare' } ]
+206 verbose etag https://registry.npmjs.org/ms from cache
+207 verbose get saving ms to /home/ceibal/.npm/registry.npmjs.org/ms/.cache.json
+208 http 304 https://registry.npmjs.org/moment
+209 verbose headers { date: 'Thu, 08 Oct 2020 12:39:43 GMT',
+209 verbose headers   connection: 'keep-alive',
+209 verbose headers   'set-cookie':
+209 verbose headers    [ '__cfduid=d5ad72e3de6bc0fea6cede39d691cfed21602160783; expires=Sat, 07-Nov-20 12:39:43 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+209 verbose headers   'cf-ray': '5defed232b0bf816-EZE',
+209 verbose headers   age: '4172',
+209 verbose headers   'cache-control': 'public, max-age=300',
+209 verbose headers   etag: '"5302c00bc8b4428cf859b0d86a4882b6"',
+209 verbose headers   'last-modified': 'Tue, 06 Oct 2020 11:21:33 GMT',
+209 verbose headers   vary: 'Accept-Encoding',
+209 verbose headers   'cf-cache-status': 'HIT',
+209 verbose headers   'cf-request-id': '05a9d289fb0000f8168d186200000001',
+209 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+209 verbose headers   server: 'cloudflare' }
+210 silly get cb [ 304,
+210 silly get   { date: 'Thu, 08 Oct 2020 12:39:43 GMT',
+210 silly get     connection: 'keep-alive',
+210 silly get     'set-cookie':
+210 silly get      [ '__cfduid=d5ad72e3de6bc0fea6cede39d691cfed21602160783; expires=Sat, 07-Nov-20 12:39:43 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+210 silly get     'cf-ray': '5defed232b0bf816-EZE',
+210 silly get     age: '4172',
+210 silly get     'cache-control': 'public, max-age=300',
+210 silly get     etag: '"5302c00bc8b4428cf859b0d86a4882b6"',
+210 silly get     'last-modified': 'Tue, 06 Oct 2020 11:21:33 GMT',
+210 silly get     vary: 'Accept-Encoding',
+210 silly get     'cf-cache-status': 'HIT',
+210 silly get     'cf-request-id': '05a9d289fb0000f8168d186200000001',
+210 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+210 silly get     server: 'cloudflare' } ]
+211 verbose etag https://registry.npmjs.org/moment from cache
+212 verbose get saving moment to /home/ceibal/.npm/registry.npmjs.org/moment/.cache.json
+213 http 304 https://registry.npmjs.org/get-youtube-id
+214 verbose headers { date: 'Thu, 08 Oct 2020 12:39:44 GMT',
+214 verbose headers   connection: 'keep-alive',
+214 verbose headers   'set-cookie':
+214 verbose headers    [ '__cfduid=d5ad72e3de6bc0fea6cede39d691cfed21602160783; expires=Sat, 07-Nov-20 12:39:43 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+214 verbose headers   'cf-ray': '5defed232b06f816-EZE',
+214 verbose headers   'cache-control': 'public, max-age=300',
+214 verbose headers   etag: '"3c309c751fe860c35c16a2e5b820b9c4"',
+214 verbose headers   'last-modified': 'Thu, 24 Jan 2019 16:45:18 GMT',
+214 verbose headers   vary: 'Accept-Encoding',
+214 verbose headers   'cf-cache-status': 'REVALIDATED',
+214 verbose headers   'cf-request-id': '05a9d289f80000f81684a55200000001',
+214 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+214 verbose headers   server: 'cloudflare' }
+215 silly get cb [ 304,
+215 silly get   { date: 'Thu, 08 Oct 2020 12:39:44 GMT',
+215 silly get     connection: 'keep-alive',
+215 silly get     'set-cookie':
+215 silly get      [ '__cfduid=d5ad72e3de6bc0fea6cede39d691cfed21602160783; expires=Sat, 07-Nov-20 12:39:43 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+215 silly get     'cf-ray': '5defed232b06f816-EZE',
+215 silly get     'cache-control': 'public, max-age=300',
+215 silly get     etag: '"3c309c751fe860c35c16a2e5b820b9c4"',
+215 silly get     'last-modified': 'Thu, 24 Jan 2019 16:45:18 GMT',
+215 silly get     vary: 'Accept-Encoding',
+215 silly get     'cf-cache-status': 'REVALIDATED',
+215 silly get     'cf-request-id': '05a9d289f80000f81684a55200000001',
+215 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+215 silly get     server: 'cloudflare' } ]
+216 verbose etag https://registry.npmjs.org/get-youtube-id from cache
+217 verbose get saving get-youtube-id to /home/ceibal/.npm/registry.npmjs.org/get-youtube-id/.cache.json
+218 http 304 https://registry.npmjs.org/snekfetch
+219 verbose headers { date: 'Thu, 08 Oct 2020 12:39:44 GMT',
+219 verbose headers   connection: 'keep-alive',
+219 verbose headers   'set-cookie':
+219 verbose headers    [ '__cfduid=d72aad5494ee224a1bfba5cd2a620ca1a1602160783; expires=Sat, 07-Nov-20 12:39:43 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+219 verbose headers   'cf-ray': '5defed23392b74df-EZE',
+219 verbose headers   'cache-control': 'public, max-age=300',
+219 verbose headers   etag: '"be371346bb3e8afa0e68ad22c70132be"',
+219 verbose headers   'last-modified': 'Fri, 20 Jul 2018 03:17:09 GMT',
+219 verbose headers   vary: 'Accept-Encoding',
+219 verbose headers   'cf-cache-status': 'REVALIDATED',
+219 verbose headers   'cf-request-id': '05a9d28a02000074df5332f200000001',
+219 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+219 verbose headers   server: 'cloudflare' }
+220 silly get cb [ 304,
+220 silly get   { date: 'Thu, 08 Oct 2020 12:39:44 GMT',
+220 silly get     connection: 'keep-alive',
+220 silly get     'set-cookie':
+220 silly get      [ '__cfduid=d72aad5494ee224a1bfba5cd2a620ca1a1602160783; expires=Sat, 07-Nov-20 12:39:43 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+220 silly get     'cf-ray': '5defed23392b74df-EZE',
+220 silly get     'cache-control': 'public, max-age=300',
+220 silly get     etag: '"be371346bb3e8afa0e68ad22c70132be"',
+220 silly get     'last-modified': 'Fri, 20 Jul 2018 03:17:09 GMT',
+220 silly get     vary: 'Accept-Encoding',
+220 silly get     'cf-cache-status': 'REVALIDATED',
+220 silly get     'cf-request-id': '05a9d28a02000074df5332f200000001',
+220 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+220 silly get     server: 'cloudflare' } ]
+221 verbose etag https://registry.npmjs.org/snekfetch from cache
+222 verbose get saving snekfetch to /home/ceibal/.npm/registry.npmjs.org/snekfetch/.cache.json
+223 http 304 https://registry.npmjs.org/ytdl-core
+224 verbose headers { date: 'Thu, 08 Oct 2020 12:39:44 GMT',
+224 verbose headers   connection: 'keep-alive',
+224 verbose headers   'set-cookie':
+224 verbose headers    [ '__cfduid=d42081c9007460cf5ff229bdad728583b1602160783; expires=Sat, 07-Nov-20 12:39:43 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+224 verbose headers   'cf-ray': '5defed235de0f7d6-EZE',
+224 verbose headers   'cache-control': 'public, max-age=300',
+224 verbose headers   etag: '"e605fc8f7466d51e5efdb4d5aef4895e"',
+224 verbose headers   'last-modified': 'Fri, 25 Sep 2020 04:50:14 GMT',
+224 verbose headers   vary: 'Accept-Encoding',
+224 verbose headers   'cf-cache-status': 'REVALIDATED',
+224 verbose headers   'cf-request-id': '05a9d28a190000f7d6b6a21200000001',
+224 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+224 verbose headers   server: 'cloudflare' }
+225 silly get cb [ 304,
+225 silly get   { date: 'Thu, 08 Oct 2020 12:39:44 GMT',
+225 silly get     connection: 'keep-alive',
+225 silly get     'set-cookie':
+225 silly get      [ '__cfduid=d42081c9007460cf5ff229bdad728583b1602160783; expires=Sat, 07-Nov-20 12:39:43 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+225 silly get     'cf-ray': '5defed235de0f7d6-EZE',
+225 silly get     'cache-control': 'public, max-age=300',
+225 silly get     etag: '"e605fc8f7466d51e5efdb4d5aef4895e"',
+225 silly get     'last-modified': 'Fri, 25 Sep 2020 04:50:14 GMT',
+225 silly get     vary: 'Accept-Encoding',
+225 silly get     'cf-cache-status': 'REVALIDATED',
+225 silly get     'cf-request-id': '05a9d28a190000f7d6b6a21200000001',
+225 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+225 silly get     server: 'cloudflare' } ]
+226 verbose etag https://registry.npmjs.org/ytdl-core from cache
+227 verbose get saving ytdl-core to /home/ceibal/.npm/registry.npmjs.org/ytdl-core/.cache.json
+228 http 304 https://registry.npmjs.org/fs
+229 verbose headers { date: 'Thu, 08 Oct 2020 12:39:44 GMT',
+229 verbose headers   connection: 'keep-alive',
+229 verbose headers   'set-cookie':
+229 verbose headers    [ '__cfduid=d2be6cfc6c5b24bf4aef9bb8b55c476c71602160783; expires=Sat, 07-Nov-20 12:39:43 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+229 verbose headers   'cf-ray': '5defed2329fcf7aa-EZE',
+229 verbose headers   'cache-control': 'public, max-age=300',
+229 verbose headers   etag: '"31ff75b0a60ab91d49b89bbf50a6b2b6"',
+229 verbose headers   'last-modified': 'Fri, 15 Nov 2019 23:33:29 GMT',
+229 verbose headers   vary: 'Accept-Encoding',
+229 verbose headers   'cf-cache-status': 'REVALIDATED',
+229 verbose headers   'cf-request-id': '05a9d289f40000f7aa43197200000001',
+229 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+229 verbose headers   server: 'cloudflare' }
+230 silly get cb [ 304,
+230 silly get   { date: 'Thu, 08 Oct 2020 12:39:44 GMT',
+230 silly get     connection: 'keep-alive',
+230 silly get     'set-cookie':
+230 silly get      [ '__cfduid=d2be6cfc6c5b24bf4aef9bb8b55c476c71602160783; expires=Sat, 07-Nov-20 12:39:43 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+230 silly get     'cf-ray': '5defed2329fcf7aa-EZE',
+230 silly get     'cache-control': 'public, max-age=300',
+230 silly get     etag: '"31ff75b0a60ab91d49b89bbf50a6b2b6"',
+230 silly get     'last-modified': 'Fri, 15 Nov 2019 23:33:29 GMT',
+230 silly get     vary: 'Accept-Encoding',
+230 silly get     'cf-cache-status': 'REVALIDATED',
+230 silly get     'cf-request-id': '05a9d289f40000f7aa43197200000001',
+230 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+230 silly get     server: 'cloudflare' } ]
+231 verbose etag https://registry.npmjs.org/fs from cache
+232 verbose get saving fs to /home/ceibal/.npm/registry.npmjs.org/fs/.cache.json
+233 http 304 https://registry.npmjs.org/discloud-status
+234 verbose headers { date: 'Thu, 08 Oct 2020 12:39:44 GMT',
+234 verbose headers   connection: 'keep-alive',
+234 verbose headers   'set-cookie':
+234 verbose headers    [ '__cfduid=d5ad72e3de6bc0fea6cede39d691cfed21602160783; expires=Sat, 07-Nov-20 12:39:43 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+234 verbose headers   'cf-ray': '5defed233b26f816-EZE',
+234 verbose headers   'cache-control': 'public, max-age=300',
+234 verbose headers   etag: '"24fe048fdbf9d10eb2d945072ff2f213"',
+234 verbose headers   'last-modified': 'Wed, 13 Nov 2019 18:20:29 GMT',
+234 verbose headers   vary: 'Accept-Encoding',
+234 verbose headers   'cf-cache-status': 'REVALIDATED',
+234 verbose headers   'cf-request-id': '05a9d28a050000f8167b9ef200000001',
+234 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+234 verbose headers   server: 'cloudflare' }
+235 silly get cb [ 304,
+235 silly get   { date: 'Thu, 08 Oct 2020 12:39:44 GMT',
+235 silly get     connection: 'keep-alive',
+235 silly get     'set-cookie':
+235 silly get      [ '__cfduid=d5ad72e3de6bc0fea6cede39d691cfed21602160783; expires=Sat, 07-Nov-20 12:39:43 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+235 silly get     'cf-ray': '5defed233b26f816-EZE',
+235 silly get     'cache-control': 'public, max-age=300',
+235 silly get     etag: '"24fe048fdbf9d10eb2d945072ff2f213"',
+235 silly get     'last-modified': 'Wed, 13 Nov 2019 18:20:29 GMT',
+235 silly get     vary: 'Accept-Encoding',
+235 silly get     'cf-cache-status': 'REVALIDATED',
+235 silly get     'cf-request-id': '05a9d28a050000f8167b9ef200000001',
+235 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+235 silly get     server: 'cloudflare' } ]
+236 verbose etag https://registry.npmjs.org/discloud-status from cache
+237 verbose get saving discloud-status to /home/ceibal/.npm/registry.npmjs.org/discloud-status/.cache.json
+238 http 304 https://registry.npmjs.org/opusscript
+239 verbose headers { date: 'Thu, 08 Oct 2020 12:39:44 GMT',
+239 verbose headers   connection: 'keep-alive',
+239 verbose headers   'set-cookie':
+239 verbose headers    [ '__cfduid=dd77a106385bc941456800c6475f7f32e1602160783; expires=Sat, 07-Nov-20 12:39:43 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+239 verbose headers   'cf-ray': '5defed234f5df7ae-EZE',
+239 verbose headers   'cache-control': 'public, max-age=300',
+239 verbose headers   etag: '"4eeff78179746fe0c73b9cc764078e54"',
+239 verbose headers   'last-modified': 'Thu, 08 Aug 2019 22:07:30 GMT',
+239 verbose headers   vary: 'Accept-Encoding',
+239 verbose headers   'cf-cache-status': 'REVALIDATED',
+239 verbose headers   'cf-request-id': '05a9d28a080000f7aee037e200000001',
+239 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+239 verbose headers   server: 'cloudflare' }
+240 silly get cb [ 304,
+240 silly get   { date: 'Thu, 08 Oct 2020 12:39:44 GMT',
+240 silly get     connection: 'keep-alive',
+240 silly get     'set-cookie':
+240 silly get      [ '__cfduid=dd77a106385bc941456800c6475f7f32e1602160783; expires=Sat, 07-Nov-20 12:39:43 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+240 silly get     'cf-ray': '5defed234f5df7ae-EZE',
+240 silly get     'cache-control': 'public, max-age=300',
+240 silly get     etag: '"4eeff78179746fe0c73b9cc764078e54"',
+240 silly get     'last-modified': 'Thu, 08 Aug 2019 22:07:30 GMT',
+240 silly get     vary: 'Accept-Encoding',
+240 silly get     'cf-cache-status': 'REVALIDATED',
+240 silly get     'cf-request-id': '05a9d28a080000f7aee037e200000001',
+240 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+240 silly get     server: 'cloudflare' } ]
+241 verbose etag https://registry.npmjs.org/opusscript from cache
+242 verbose get saving opusscript to /home/ceibal/.npm/registry.npmjs.org/opusscript/.cache.json
+243 http 304 https://registry.npmjs.org/simple-youtube-api
+244 verbose headers { date: 'Thu, 08 Oct 2020 12:39:44 GMT',
+244 verbose headers   connection: 'keep-alive',
+244 verbose headers   'set-cookie':
+244 verbose headers    [ '__cfduid=d6700d0d083a10566db0c3b924094077a1602160783; expires=Sat, 07-Nov-20 12:39:43 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+244 verbose headers   'cf-ray': '5defed232c76d2b8-EZE',
+244 verbose headers   'cache-control': 'public, max-age=300',
+244 verbose headers   etag: '"e0e5783649b391f52f09dd3e62dd72fa"',
+244 verbose headers   'last-modified': 'Tue, 02 Jun 2020 16:48:09 GMT',
+244 verbose headers   vary: 'Accept-Encoding',
+244 verbose headers   'cf-cache-status': 'REVALIDATED',
+244 verbose headers   'cf-request-id': '05a9d289f60000d2b8debff200000001',
+244 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+244 verbose headers   server: 'cloudflare' }
+245 silly get cb [ 304,
+245 silly get   { date: 'Thu, 08 Oct 2020 12:39:44 GMT',
+245 silly get     connection: 'keep-alive',
+245 silly get     'set-cookie':
+245 silly get      [ '__cfduid=d6700d0d083a10566db0c3b924094077a1602160783; expires=Sat, 07-Nov-20 12:39:43 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+245 silly get     'cf-ray': '5defed232c76d2b8-EZE',
+245 silly get     'cache-control': 'public, max-age=300',
+245 silly get     etag: '"e0e5783649b391f52f09dd3e62dd72fa"',
+245 silly get     'last-modified': 'Tue, 02 Jun 2020 16:48:09 GMT',
+245 silly get     vary: 'Accept-Encoding',
+245 silly get     'cf-cache-status': 'REVALIDATED',
+245 silly get     'cf-request-id': '05a9d289f60000d2b8debff200000001',
+245 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+245 silly get     server: 'cloudflare' } ]
+246 verbose etag https://registry.npmjs.org/simple-youtube-api from cache
+247 verbose get saving simple-youtube-api to /home/ceibal/.npm/registry.npmjs.org/simple-youtube-api/.cache.json
+248 http 304 https://registry.npmjs.org/lowdb
+249 verbose headers { date: 'Thu, 08 Oct 2020 12:39:44 GMT',
+249 verbose headers   connection: 'keep-alive',
+249 verbose headers   'set-cookie':
+249 verbose headers    [ '__cfduid=d37a3ae76aab5dc85fdd1f71abc76d21a1602160783; expires=Sat, 07-Nov-20 12:39:43 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+249 verbose headers   'cf-ray': '5defed233897677d-EZE',
+249 verbose headers   'cache-control': 'public, max-age=300',
+249 verbose headers   etag: '"d7ff1b38ef7aab6dc6dcda855fc3506b"',
+249 verbose headers   'last-modified': 'Sat, 07 Dec 2019 11:25:13 GMT',
+249 verbose headers   vary: 'Accept-Encoding',
+249 verbose headers   'cf-cache-status': 'REVALIDATED',
+249 verbose headers   'cf-request-id': '05a9d28a030000677dcc9eb200000001',
+249 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+249 verbose headers   server: 'cloudflare' }
+250 silly get cb [ 304,
+250 silly get   { date: 'Thu, 08 Oct 2020 12:39:44 GMT',
+250 silly get     connection: 'keep-alive',
+250 silly get     'set-cookie':
+250 silly get      [ '__cfduid=d37a3ae76aab5dc85fdd1f71abc76d21a1602160783; expires=Sat, 07-Nov-20 12:39:43 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+250 silly get     'cf-ray': '5defed233897677d-EZE',
+250 silly get     'cache-control': 'public, max-age=300',
+250 silly get     etag: '"d7ff1b38ef7aab6dc6dcda855fc3506b"',
+250 silly get     'last-modified': 'Sat, 07 Dec 2019 11:25:13 GMT',
+250 silly get     vary: 'Accept-Encoding',
+250 silly get     'cf-cache-status': 'REVALIDATED',
+250 silly get     'cf-request-id': '05a9d28a030000677dcc9eb200000001',
+250 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+250 silly get     server: 'cloudflare' } ]
+251 verbose etag https://registry.npmjs.org/lowdb from cache
+252 verbose get saving lowdb to /home/ceibal/.npm/registry.npmjs.org/lowdb/.cache.json
+253 http 304 https://registry.npmjs.org/isgd
+254 verbose headers { date: 'Thu, 08 Oct 2020 12:39:44 GMT',
+254 verbose headers   connection: 'keep-alive',
+254 verbose headers   'set-cookie':
+254 verbose headers    [ '__cfduid=d0897edb67c02f294fad1922551aac27f1602160783; expires=Sat, 07-Nov-20 12:39:43 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+254 verbose headers   'cf-ray': '5defed232fa367e3-EZE',
+254 verbose headers   'cache-control': 'public, max-age=300',
+254 verbose headers   etag: '"6081bca3578813a0d4860ed1d3459c21"',
+254 verbose headers   'last-modified': 'Sun, 27 May 2018 05:00:29 GMT',
+254 verbose headers   vary: 'Accept-Encoding',
+254 verbose headers   'cf-cache-status': 'REVALIDATED',
+254 verbose headers   'cf-request-id': '05a9d289f8000067e3d3be6200000001',
+254 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+254 verbose headers   server: 'cloudflare' }
+255 silly get cb [ 304,
+255 silly get   { date: 'Thu, 08 Oct 2020 12:39:44 GMT',
+255 silly get     connection: 'keep-alive',
+255 silly get     'set-cookie':
+255 silly get      [ '__cfduid=d0897edb67c02f294fad1922551aac27f1602160783; expires=Sat, 07-Nov-20 12:39:43 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+255 silly get     'cf-ray': '5defed232fa367e3-EZE',
+255 silly get     'cache-control': 'public, max-age=300',
+255 silly get     etag: '"6081bca3578813a0d4860ed1d3459c21"',
+255 silly get     'last-modified': 'Sun, 27 May 2018 05:00:29 GMT',
+255 silly get     vary: 'Accept-Encoding',
+255 silly get     'cf-cache-status': 'REVALIDATED',
+255 silly get     'cf-request-id': '05a9d289f8000067e3d3be6200000001',
+255 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+255 silly get     server: 'cloudflare' } ]
+256 verbose etag https://registry.npmjs.org/isgd from cache
+257 verbose get saving isgd to /home/ceibal/.npm/registry.npmjs.org/isgd/.cache.json
+258 http 304 https://registry.npmjs.org/youtube-info
+259 verbose headers { date: 'Thu, 08 Oct 2020 12:39:44 GMT',
+259 verbose headers   connection: 'keep-alive',
+259 verbose headers   'set-cookie':
+259 verbose headers    [ '__cfduid=dca86884c4cfb1ae8f7a8c2b9043edc331602160783; expires=Sat, 07-Nov-20 12:39:43 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+259 verbose headers   'cf-ray': '5defed234859f7ce-EZE',
+259 verbose headers   'cache-control': 'public, max-age=300',
+259 verbose headers   etag: '"e152a2098b0dea0382456073473fef93"',
+259 verbose headers   'last-modified': 'Sat, 05 Jan 2019 20:30:44 GMT',
+259 verbose headers   vary: 'Accept-Encoding',
+259 verbose headers   'cf-cache-status': 'REVALIDATED',
+259 verbose headers   'cf-request-id': '05a9d28a090000f7ce86983200000001',
+259 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+259 verbose headers   server: 'cloudflare' }
+260 silly get cb [ 304,
+260 silly get   { date: 'Thu, 08 Oct 2020 12:39:44 GMT',
+260 silly get     connection: 'keep-alive',
+260 silly get     'set-cookie':
+260 silly get      [ '__cfduid=dca86884c4cfb1ae8f7a8c2b9043edc331602160783; expires=Sat, 07-Nov-20 12:39:43 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+260 silly get     'cf-ray': '5defed234859f7ce-EZE',
+260 silly get     'cache-control': 'public, max-age=300',
+260 silly get     etag: '"e152a2098b0dea0382456073473fef93"',
+260 silly get     'last-modified': 'Sat, 05 Jan 2019 20:30:44 GMT',
+260 silly get     vary: 'Accept-Encoding',
+260 silly get     'cf-cache-status': 'REVALIDATED',
+260 silly get     'cf-request-id': '05a9d28a090000f7ce86983200000001',
+260 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+260 silly get     server: 'cloudflare' } ]
+261 verbose etag https://registry.npmjs.org/youtube-info from cache
+262 verbose get saving youtube-info to /home/ceibal/.npm/registry.npmjs.org/youtube-info/.cache.json
+263 http 304 https://registry.npmjs.org/discord.js-musicbot-addon
+264 verbose headers { date: 'Thu, 08 Oct 2020 12:39:44 GMT',
+264 verbose headers   connection: 'keep-alive',
+264 verbose headers   'set-cookie':
+264 verbose headers    [ '__cfduid=d9b770ef9ed0965d394be5eee0c3a19811602160783; expires=Sat, 07-Nov-20 12:39:43 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+264 verbose headers   'cf-ray': '5defed234fe7f7a6-EZE',
+264 verbose headers   'cache-control': 'public, max-age=300',
+264 verbose headers   etag: '"e8f6c56d60cb92b62994202aab7ce10c"',
+264 verbose headers   'last-modified': 'Sat, 28 Mar 2020 03:06:55 GMT',
+264 verbose headers   vary: 'Accept-Encoding',
+264 verbose headers   'cf-cache-status': 'REVALIDATED',
+264 verbose headers   'cf-request-id': '05a9d28a0d0000f7a68f8ca200000001',
+264 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+264 verbose headers   server: 'cloudflare' }
+265 silly get cb [ 304,
+265 silly get   { date: 'Thu, 08 Oct 2020 12:39:44 GMT',
+265 silly get     connection: 'keep-alive',
+265 silly get     'set-cookie':
+265 silly get      [ '__cfduid=d9b770ef9ed0965d394be5eee0c3a19811602160783; expires=Sat, 07-Nov-20 12:39:43 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+265 silly get     'cf-ray': '5defed234fe7f7a6-EZE',
+265 silly get     'cache-control': 'public, max-age=300',
+265 silly get     etag: '"e8f6c56d60cb92b62994202aab7ce10c"',
+265 silly get     'last-modified': 'Sat, 28 Mar 2020 03:06:55 GMT',
+265 silly get     vary: 'Accept-Encoding',
+265 silly get     'cf-cache-status': 'REVALIDATED',
+265 silly get     'cf-request-id': '05a9d28a0d0000f7a68f8ca200000001',
+265 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+265 silly get     server: 'cloudflare' } ]
+266 verbose etag https://registry.npmjs.org/discord.js-musicbot-addon from cache
+267 verbose get saving discord.js-musicbot-addon to /home/ceibal/.npm/registry.npmjs.org/discord.js-musicbot-addon/.cache.json
+268 http 304 https://registry.npmjs.org/ytdl-core-discord
+269 verbose headers { date: 'Thu, 08 Oct 2020 12:39:44 GMT',
+269 verbose headers   connection: 'keep-alive',
+269 verbose headers   'set-cookie':
+269 verbose headers    [ '__cfduid=dd805e0825efe3e8b6727b5b458feb8db1602160783; expires=Sat, 07-Nov-20 12:39:43 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+269 verbose headers   'cf-ray': '5defed234becd7e9-EZE',
+269 verbose headers   'cache-control': 'public, max-age=300',
+269 verbose headers   etag: '"3b7c66c316d8e5549af20cea4f37cfbf"',
+269 verbose headers   'last-modified': 'Wed, 23 Sep 2020 10:36:31 GMT',
+269 verbose headers   vary: 'Accept-Encoding',
+269 verbose headers   'cf-cache-status': 'REVALIDATED',
+269 verbose headers   'cf-request-id': '05a9d28a090000d7e9b8956200000001',
+269 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+269 verbose headers   server: 'cloudflare' }
+270 silly get cb [ 304,
+270 silly get   { date: 'Thu, 08 Oct 2020 12:39:44 GMT',
+270 silly get     connection: 'keep-alive',
+270 silly get     'set-cookie':
+270 silly get      [ '__cfduid=dd805e0825efe3e8b6727b5b458feb8db1602160783; expires=Sat, 07-Nov-20 12:39:43 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+270 silly get     'cf-ray': '5defed234becd7e9-EZE',
+270 silly get     'cache-control': 'public, max-age=300',
+270 silly get     etag: '"3b7c66c316d8e5549af20cea4f37cfbf"',
+270 silly get     'last-modified': 'Wed, 23 Sep 2020 10:36:31 GMT',
+270 silly get     vary: 'Accept-Encoding',
+270 silly get     'cf-cache-status': 'REVALIDATED',
+270 silly get     'cf-request-id': '05a9d28a090000d7e9b8956200000001',
+270 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+270 silly get     server: 'cloudflare' } ]
+271 verbose etag https://registry.npmjs.org/ytdl-core-discord from cache
+272 verbose get saving ytdl-core-discord to /home/ceibal/.npm/registry.npmjs.org/ytdl-core-discord/.cache.json
+273 http 304 https://registry.npmjs.org/mal-scraper
+274 verbose headers { date: 'Thu, 08 Oct 2020 12:39:44 GMT',
+274 verbose headers   connection: 'keep-alive',
+274 verbose headers   'set-cookie':
+274 verbose headers    [ '__cfduid=d5ae54c0e01901112599ffc6bb69856701602160783; expires=Sat, 07-Nov-20 12:39:43 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+274 verbose headers   'cf-ray': '5defed232a3d7507-EZE',
+274 verbose headers   'cache-control': 'public, max-age=300',
+274 verbose headers   etag: '"7661958dc55e1076582b1c95b69cc771"',
+274 verbose headers   'last-modified': 'Mon, 05 Oct 2020 18:10:42 GMT',
+274 verbose headers   vary: 'Accept-Encoding',
+274 verbose headers   'cf-cache-status': 'MISS',
+274 verbose headers   'cf-request-id': '05a9d289f800007507d22d5200000001',
+274 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+274 verbose headers   server: 'cloudflare' }
+275 silly get cb [ 304,
+275 silly get   { date: 'Thu, 08 Oct 2020 12:39:44 GMT',
+275 silly get     connection: 'keep-alive',
+275 silly get     'set-cookie':
+275 silly get      [ '__cfduid=d5ae54c0e01901112599ffc6bb69856701602160783; expires=Sat, 07-Nov-20 12:39:43 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+275 silly get     'cf-ray': '5defed232a3d7507-EZE',
+275 silly get     'cache-control': 'public, max-age=300',
+275 silly get     etag: '"7661958dc55e1076582b1c95b69cc771"',
+275 silly get     'last-modified': 'Mon, 05 Oct 2020 18:10:42 GMT',
+275 silly get     vary: 'Accept-Encoding',
+275 silly get     'cf-cache-status': 'MISS',
+275 silly get     'cf-request-id': '05a9d289f800007507d22d5200000001',
+275 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+275 silly get     server: 'cloudflare' } ]
+276 verbose etag https://registry.npmjs.org/mal-scraper from cache
+277 verbose get saving mal-scraper to /home/ceibal/.npm/registry.npmjs.org/mal-scraper/.cache.json
+278 http 304 https://registry.npmjs.org/ffmpeg-binaries
+279 verbose headers { date: 'Thu, 08 Oct 2020 12:39:44 GMT',
+279 verbose headers   connection: 'keep-alive',
+279 verbose headers   'set-cookie':
+279 verbose headers    [ '__cfduid=d42081c9007460cf5ff229bdad728583b1602160783; expires=Sat, 07-Nov-20 12:39:43 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+279 verbose headers   'cf-ray': '5defed234dcff7d6-EZE',
+279 verbose headers   'cache-control': 'public, max-age=300',
+279 verbose headers   etag: '"75854ccd9806f05fb0fd0c48b0374d0a"',
+279 verbose headers   'last-modified': 'Wed, 29 May 2019 03:28:27 GMT',
+279 verbose headers   vary: 'Accept-Encoding',
+279 verbose headers   'cf-cache-status': 'REVALIDATED',
+279 verbose headers   'cf-request-id': '05a9d28a0b0000f7d6c684f200000001',
+279 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+279 verbose headers   server: 'cloudflare' }
+280 silly get cb [ 304,
+280 silly get   { date: 'Thu, 08 Oct 2020 12:39:44 GMT',
+280 silly get     connection: 'keep-alive',
+280 silly get     'set-cookie':
+280 silly get      [ '__cfduid=d42081c9007460cf5ff229bdad728583b1602160783; expires=Sat, 07-Nov-20 12:39:43 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+280 silly get     'cf-ray': '5defed234dcff7d6-EZE',
+280 silly get     'cache-control': 'public, max-age=300',
+280 silly get     etag: '"75854ccd9806f05fb0fd0c48b0374d0a"',
+280 silly get     'last-modified': 'Wed, 29 May 2019 03:28:27 GMT',
+280 silly get     vary: 'Accept-Encoding',
+280 silly get     'cf-cache-status': 'REVALIDATED',
+280 silly get     'cf-request-id': '05a9d28a0b0000f7d6c684f200000001',
+280 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+280 silly get     server: 'cloudflare' } ]
+281 verbose etag https://registry.npmjs.org/ffmpeg-binaries from cache
+282 verbose get saving ffmpeg-binaries to /home/ceibal/.npm/registry.npmjs.org/ffmpeg-binaries/.cache.json
+283 http 304 https://registry.npmjs.org/youtube-node
+284 verbose headers { date: 'Thu, 08 Oct 2020 12:39:44 GMT',
+284 verbose headers   connection: 'keep-alive',
+284 verbose headers   'set-cookie':
+284 verbose headers    [ '__cfduid=d057ef69c9727574a9000e696a5cc5cc11602160783; expires=Sat, 07-Nov-20 12:39:43 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+284 verbose headers   'cf-ray': '5defed234b58d7ed-EZE',
+284 verbose headers   'cache-control': 'public, max-age=300',
+284 verbose headers   etag: '"e90f69f55a773e3f07f5aa755f61ee6f"',
+284 verbose headers   'last-modified': 'Tue, 29 Jan 2019 21:12:03 GMT',
+284 verbose headers   vary: 'Accept-Encoding',
+284 verbose headers   'cf-cache-status': 'MISS',
+284 verbose headers   'cf-request-id': '05a9d28a0a0000d7eded385200000001',
+284 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+284 verbose headers   server: 'cloudflare' }
+285 silly get cb [ 304,
+285 silly get   { date: 'Thu, 08 Oct 2020 12:39:44 GMT',
+285 silly get     connection: 'keep-alive',
+285 silly get     'set-cookie':
+285 silly get      [ '__cfduid=d057ef69c9727574a9000e696a5cc5cc11602160783; expires=Sat, 07-Nov-20 12:39:43 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+285 silly get     'cf-ray': '5defed234b58d7ed-EZE',
+285 silly get     'cache-control': 'public, max-age=300',
+285 silly get     etag: '"e90f69f55a773e3f07f5aa755f61ee6f"',
+285 silly get     'last-modified': 'Tue, 29 Jan 2019 21:12:03 GMT',
+285 silly get     vary: 'Accept-Encoding',
+285 silly get     'cf-cache-status': 'MISS',
+285 silly get     'cf-request-id': '05a9d28a0a0000d7eded385200000001',
+285 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+285 silly get     server: 'cloudflare' } ]
+286 verbose etag https://registry.npmjs.org/youtube-node from cache
+287 verbose get saving youtube-node to /home/ceibal/.npm/registry.npmjs.org/youtube-node/.cache.json
+288 http 304 https://registry.npmjs.org/discord.js
+289 verbose headers { date: 'Thu, 08 Oct 2020 12:39:44 GMT',
+289 verbose headers   connection: 'keep-alive',
+289 verbose headers   'set-cookie':
+289 verbose headers    [ '__cfduid=dfda51bf51f8918306f10b6c8c730f0ea1602160783; expires=Sat, 07-Nov-20 12:39:43 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+289 verbose headers   'cf-ray': '5defed2328f6d84d-EZE',
+289 verbose headers   'cache-control': 'public, max-age=300',
+289 verbose headers   etag: '"60d0f2cdd7db82c471c85944c09128b8"',
+289 verbose headers   'last-modified': 'Mon, 28 Sep 2020 08:27:41 GMT',
+289 verbose headers   vary: 'Accept-Encoding',
+289 verbose headers   'cf-cache-status': 'REVALIDATED',
+289 verbose headers   'cf-request-id': '05a9d289f60000d84daab8e200000001',
+289 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+289 verbose headers   server: 'cloudflare' }
+290 silly get cb [ 304,
+290 silly get   { date: 'Thu, 08 Oct 2020 12:39:44 GMT',
+290 silly get     connection: 'keep-alive',
+290 silly get     'set-cookie':
+290 silly get      [ '__cfduid=dfda51bf51f8918306f10b6c8c730f0ea1602160783; expires=Sat, 07-Nov-20 12:39:43 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+290 silly get     'cf-ray': '5defed2328f6d84d-EZE',
+290 silly get     'cache-control': 'public, max-age=300',
+290 silly get     etag: '"60d0f2cdd7db82c471c85944c09128b8"',
+290 silly get     'last-modified': 'Mon, 28 Sep 2020 08:27:41 GMT',
+290 silly get     vary: 'Accept-Encoding',
+290 silly get     'cf-cache-status': 'REVALIDATED',
+290 silly get     'cf-request-id': '05a9d289f60000d84daab8e200000001',
+290 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+290 silly get     server: 'cloudflare' } ]
+291 verbose etag https://registry.npmjs.org/discord.js from cache
+292 verbose get saving discord.js to /home/ceibal/.npm/registry.npmjs.org/discord.js/.cache.json
+293 verbose outdated not updating discord.js because it's currently at the maximum version that matches its specified semver range
+294 verbose outdated not updating ytdl-core because it's currently at the maximum version that matches its specified semver range
+295 info outdated updating [ { dep:
+295 info outdated      { package: [Object],
+295 info outdated        path: '/home/ceibal/Escritorio/botz',
+295 info outdated        parent: [Object],
+295 info outdated        isMissing: true },
+295 info outdated     depname: 'ffmpeg-binaries',
+295 info outdated     current: undefined,
+295 info outdated     wanted: '4.0.0',
+295 info outdated     latest: '4.0.0',
+295 info outdated     req: '^4.0.0',
+295 info outdated     what: 'ffmpeg-binaries@4.0.0' } ]
+296 silly loadCurrentTree Starting
+297 silly install loadCurrentTree
+298 silly install readLocalPackageData
+299 silly fetchPackageMetaData ffmpeg-binaries@4.0.0
+300 silly fetchNamedPackageData ffmpeg-binaries
+301 silly mapToRegistry name ffmpeg-binaries
+302 silly mapToRegistry using default registry
+303 silly mapToRegistry registry https://registry.npmjs.org/
+304 silly mapToRegistry uri https://registry.npmjs.org/ffmpeg-binaries
+305 verbose get https://registry.npmjs.org/ffmpeg-binaries not expired, no request
+306 silly install normalizeTree
+307 silly loadCurrentTree Finishing
+308 silly loadIdealTree Starting
+309 silly install loadIdealTree
+310 silly cloneCurrentTree Starting
+311 silly install cloneCurrentTreeToIdealTree
+312 silly cloneCurrentTree Finishing
+313 silly loadShrinkwrap Starting
+314 silly install loadShrinkwrap
+315 silly loadShrinkwrap Finishing
+316 silly loadAllDepsIntoIdealTree Starting
+317 silly install loadAllDepsIntoIdealTree
+318 silly resolveWithNewModule ffmpeg-binaries@4.0.0 checking installable status
+319 silly cache add args [ 'ffmpeg-binaries@4.0.0', null ]
+320 verbose cache add spec ffmpeg-binaries@4.0.0
+321 silly cache add parsed spec Result {
+321 silly cache add   raw: 'ffmpeg-binaries@4.0.0',
+321 silly cache add   scope: null,
+321 silly cache add   name: 'ffmpeg-binaries',
+321 silly cache add   rawSpec: '4.0.0',
+321 silly cache add   spec: '4.0.0',
+321 silly cache add   type: 'version' }
+322 silly addNamed ffmpeg-binaries@4.0.0
+323 verbose addNamed "4.0.0" is a plain semver version for ffmpeg-binaries
+324 silly mapToRegistry name ffmpeg-binaries
+325 silly mapToRegistry using default registry
+326 silly mapToRegistry registry https://registry.npmjs.org/
+327 silly mapToRegistry uri https://registry.npmjs.org/ffmpeg-binaries
+328 verbose addNameVersion registry:https://registry.npmjs.org/ffmpeg-binaries not in flight; fetching
+329 verbose get https://registry.npmjs.org/ffmpeg-binaries not expired, no request
+330 warn deprecated ffmpeg-binaries@4.0.0: ffmpeg-binaries is no longer being maintained. use ffmpeg-static, or just install ffmpeg
+331 silly cache afterAdd ffmpeg-binaries@4.0.0
+332 verbose afterAdd /home/ceibal/.npm/ffmpeg-binaries/4.0.0/package/package.json not in flight; writing
+333 verbose afterAdd /home/ceibal/.npm/ffmpeg-binaries/4.0.0/package/package.json written
+334 silly fetchNamedPackageData string_decoder
+335 silly mapToRegistry name string_decoder
+336 silly mapToRegistry using default registry
+337 silly mapToRegistry registry https://registry.npmjs.org/
+338 silly mapToRegistry uri https://registry.npmjs.org/string_decoder
+339 verbose request uri https://registry.npmjs.org/string_decoder
+340 verbose request no auth needed
+341 info attempt registry request try #1 at 09:39:47
+342 verbose request using bearer token for auth
+343 verbose etag W/"0a93d953e853f8bf50ba2c73d36557a6"
+344 verbose lastModified Wed, 07 Aug 2019 09:20:40 GMT
+345 http request GET https://registry.npmjs.org/string_decoder
+346 http 304 https://registry.npmjs.org/string_decoder
+347 verbose headers { date: 'Thu, 08 Oct 2020 12:39:47 GMT',
+347 verbose headers   connection: 'keep-alive',
+347 verbose headers   'set-cookie':
+347 verbose headers    [ '__cfduid=dd7081a62fe761ed65bab8ba7fc3acbee1602160787; expires=Sat, 07-Nov-20 12:39:47 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+347 verbose headers   'cf-ray': '5defed3b1925f79e-EZE',
+347 verbose headers   age: '5197',
+347 verbose headers   'cache-control': 'public, max-age=300',
+347 verbose headers   etag: '"0a93d953e853f8bf50ba2c73d36557a6"',
+347 verbose headers   'last-modified': 'Wed, 07 Aug 2019 09:20:40 GMT',
+347 verbose headers   vary: 'Accept-Encoding',
+347 verbose headers   'cf-cache-status': 'HIT',
+347 verbose headers   'cf-request-id': '05a9d298f30000f79e05171200000001',
+347 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+347 verbose headers   server: 'cloudflare' }
+348 silly get cb [ 304,
+348 silly get   { date: 'Thu, 08 Oct 2020 12:39:47 GMT',
+348 silly get     connection: 'keep-alive',
+348 silly get     'set-cookie':
+348 silly get      [ '__cfduid=dd7081a62fe761ed65bab8ba7fc3acbee1602160787; expires=Sat, 07-Nov-20 12:39:47 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+348 silly get     'cf-ray': '5defed3b1925f79e-EZE',
+348 silly get     age: '5197',
+348 silly get     'cache-control': 'public, max-age=300',
+348 silly get     etag: '"0a93d953e853f8bf50ba2c73d36557a6"',
+348 silly get     'last-modified': 'Wed, 07 Aug 2019 09:20:40 GMT',
+348 silly get     vary: 'Accept-Encoding',
+348 silly get     'cf-cache-status': 'HIT',
+348 silly get     'cf-request-id': '05a9d298f30000f79e05171200000001',
+348 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+348 silly get     server: 'cloudflare' } ]
+349 verbose etag https://registry.npmjs.org/string_decoder from cache
+350 verbose get saving string_decoder to /home/ceibal/.npm/registry.npmjs.org/string_decoder/.cache.json
+351 silly resolveWithNewModule string_decoder@1.1.1 checking installable status
+352 silly cache add args [ 'string_decoder@~1.1.1', null ]
+353 verbose cache add spec string_decoder@~1.1.1
+354 silly cache add parsed spec Result {
+354 silly cache add   raw: 'string_decoder@~1.1.1',
+354 silly cache add   scope: null,
+354 silly cache add   name: 'string_decoder',
+354 silly cache add   rawSpec: '~1.1.1',
+354 silly cache add   spec: '>=1.1.1 <1.2.0',
+354 silly cache add   type: 'range' }
+355 silly addNamed string_decoder@>=1.1.1 <1.2.0
+356 verbose addNamed ">=1.1.1 <1.2.0" is a valid semver range for string_decoder
+357 silly addNameRange { name: 'string_decoder',
+357 silly addNameRange   range: '>=1.1.1 <1.2.0',
+357 silly addNameRange   hasData: false }
+358 silly mapToRegistry name string_decoder
+359 silly mapToRegistry using default registry
+360 silly mapToRegistry registry https://registry.npmjs.org/
+361 silly mapToRegistry uri https://registry.npmjs.org/string_decoder
+362 verbose addNameRange registry:https://registry.npmjs.org/string_decoder not in flight; fetching
+363 verbose get https://registry.npmjs.org/string_decoder not expired, no request
+364 silly addNameRange number 2 { name: 'string_decoder',
+364 silly addNameRange   range: '>=1.1.1 <1.2.0',
+364 silly addNameRange   hasData: true }
+365 silly addNameRange versions [ 'string_decoder',
+365 silly addNameRange   [ '0.0.0',
+365 silly addNameRange     '0.0.1',
+365 silly addNameRange     '0.10.24',
+365 silly addNameRange     '0.11.10',
+365 silly addNameRange     '0.10.25',
+365 silly addNameRange     '0.11.10-1',
+365 silly addNameRange     '0.10.25-1',
+365 silly addNameRange     '0.10.31',
+365 silly addNameRange     '1.0.0',
+365 silly addNameRange     '1.0.1',
+365 silly addNameRange     '1.0.2',
+365 silly addNameRange     '1.0.3',
+365 silly addNameRange     '1.1.0',
+365 silly addNameRange     '1.1.1',
+365 silly addNameRange     '1.2.0',
+365 silly addNameRange     '1.3.0' ] ]
+366 silly addNamed string_decoder@1.1.1
+367 verbose addNamed "1.1.1" is a plain semver version for string_decoder
+368 silly cache afterAdd string_decoder@1.1.1
+369 verbose afterAdd /home/ceibal/.npm/string_decoder/1.1.1/package/package.json not in flight; writing
+370 verbose afterAdd /home/ceibal/.npm/string_decoder/1.1.1/package/package.json written
+371 silly loadAllDepsIntoIdealTree Finishing
+372 silly idealTree:prePrune music-bot@1.0.0
+372 silly idealTree:prePrune ├── @babel/runtime@7.11.2
+372 silly idealTree:prePrune ├── @types/node@14.11.5
+372 silly idealTree:prePrune ├── ajv@6.10.2
+372 silly idealTree:prePrune ├── asn1@0.2.4
+372 silly idealTree:prePrune ├── assert-plus@1.0.0
+372 silly idealTree:prePrune ├── async-limiter@1.0.1
+372 silly idealTree:prePrune ├── async@0.9.2
+372 silly idealTree:prePrune ├── asynckit@0.4.0
+372 silly idealTree:prePrune ├── aws-sign2@0.7.0
+372 silly idealTree:prePrune ├── aws4@1.8.0
+372 silly idealTree:prePrune ├── axios@0.19.2
+372 silly idealTree:prePrune ├── balanced-match@1.0.0
+372 silly idealTree:prePrune ├── base64-js@1.3.1
+372 silly idealTree:prePrune ├─┬ bcrypt-pbkdf@1.0.2
+372 silly idealTree:prePrune │ └── tweetnacl@0.14.5
+372 silly idealTree:prePrune ├── bl@1.2.2
+372 silly idealTree:prePrune ├── bluebird@3.7.0
+372 silly idealTree:prePrune ├── boolbase@1.0.0
+372 silly idealTree:prePrune ├── boom@2.10.1
+372 silly idealTree:prePrune ├── brace-expansion@1.1.11
+372 silly idealTree:prePrune ├── buffer-alloc-unsafe@1.1.0
+372 silly idealTree:prePrune ├── buffer-alloc@1.2.0
+372 silly idealTree:prePrune ├── buffer-crc32@0.2.13
+372 silly idealTree:prePrune ├── buffer-fill@1.0.0
+372 silly idealTree:prePrune ├── buffer@5.4.3
+372 silly idealTree:prePrune ├── caseless@0.12.0
+372 silly idealTree:prePrune ├─┬ cheerio@0.19.0
+372 silly idealTree:prePrune │ └── lodash@3.10.1
+372 silly idealTree:prePrune ├── co@4.6.0
+372 silly idealTree:prePrune ├── colors@1.4.0
+372 silly idealTree:prePrune ├── combined-stream@1.0.8
+372 silly idealTree:prePrune ├── commander@2.8.1
+372 silly idealTree:prePrune ├── concat-map@0.0.1
+372 silly idealTree:prePrune ├── core-util-is@1.0.2
+372 silly idealTree:prePrune ├── cryptiles@2.0.5
+372 silly idealTree:prePrune ├── css-select@1.0.0
+372 silly idealTree:prePrune ├── css-what@1.0.0
+372 silly idealTree:prePrune ├── cycle@1.0.3
+372 silly idealTree:prePrune ├── dashdash@1.14.1
+372 silly idealTree:prePrune ├─┬ debug@2.6.9
+372 silly idealTree:prePrune │ └── ms@2.0.0
+372 silly idealTree:prePrune ├── decompress-tar@4.1.1
+372 silly idealTree:prePrune ├─┬ decompress-tarbz2@4.1.1
+372 silly idealTree:prePrune │ └── file-type@6.2.0
+372 silly idealTree:prePrune ├── decompress-targz@4.1.1
+372 silly idealTree:prePrune ├─┬ decompress-tarxz@2.1.1
+372 silly idealTree:prePrune │ └── file-type@3.9.0
+372 silly idealTree:prePrune ├─┬ decompress-unzip@4.0.1
+372 silly idealTree:prePrune │ └── file-type@3.9.0
+372 silly idealTree:prePrune ├── decompress@4.2.0
+372 silly idealTree:prePrune ├── deep-equal@0.2.2
+372 silly idealTree:prePrune ├── define-properties@1.1.3
+372 silly idealTree:prePrune ├── delayed-stream@1.0.0
+372 silly idealTree:prePrune ├── discloud-status@0.1.6
+372 silly idealTree:prePrune ├─┬ discord.js-musicbot-addon@13.9.1
+372 silly idealTree:prePrune │ ├─┬ m3u8stream@0.6.5
+372 silly idealTree:prePrune │ │ └── miniget@1.7.2
+372 silly idealTree:prePrune │ └── ytdl-core@1.0.9
+372 silly idealTree:prePrune ├─┬ discord.js@11.6.4
+372 silly idealTree:prePrune │ └── snekfetch@3.6.4
+372 silly idealTree:prePrune ├── dom-serializer@0.1.1
+372 silly idealTree:prePrune ├── domelementtype@1.3.1
+372 silly idealTree:prePrune ├── domhandler@2.4.2
+372 silly idealTree:prePrune ├── domutils@1.4.3
+372 silly idealTree:prePrune ├── ecc-jsbn@0.1.2
+372 silly idealTree:prePrune ├── end-of-stream@1.4.4
+372 silly idealTree:prePrune ├── entities@1.1.2
+372 silly idealTree:prePrune ├── es-abstract@1.17.7
+372 silly idealTree:prePrune ├── es-to-primitive@1.2.1
+372 silly idealTree:prePrune ├── extend@3.0.2
+372 silly idealTree:prePrune ├── extsprintf@1.3.0
+372 silly idealTree:prePrune ├── eyes@0.1.8
+372 silly idealTree:prePrune ├── fast-deep-equal@2.0.1
+372 silly idealTree:prePrune ├── fast-json-stable-stringify@2.0.0
+372 silly idealTree:prePrune ├── fd-slicer@1.1.0
+372 silly idealTree:prePrune ├── ffmpeg-binaries@4.0.0
+372 silly idealTree:prePrune ├── file-type@5.2.0
+372 silly idealTree:prePrune ├─┬ follow-redirects@1.5.10
+372 silly idealTree:prePrune │ ├── debug@3.1.0
+372 silly idealTree:prePrune │ └── ms@2.0.0
+372 silly idealTree:prePrune ├── forever-agent@0.6.1
+372 silly idealTree:prePrune ├── form-data@2.3.3
+372 silly idealTree:prePrune ├── fs-constants@1.0.0
+372 silly idealTree:prePrune ├── fs.realpath@1.0.0
+372 silly idealTree:prePrune ├── fs@0.0.1-security
+372 silly idealTree:prePrune ├── function-bind@1.1.1
+372 silly idealTree:prePrune ├── get-stream@2.3.1
+372 silly idealTree:prePrune ├── get-youtube-id@1.0.1
+372 silly idealTree:prePrune ├── getpass@0.1.7
+372 silly idealTree:prePrune ├── glob@7.1.4
+372 silly idealTree:prePrune ├── graceful-fs@4.2.2
+372 silly idealTree:prePrune ├── graceful-readlink@1.0.1
+372 silly idealTree:prePrune ├── har-schema@2.0.0
+372 silly idealTree:prePrune ├── har-validator@5.1.3
+372 silly idealTree:prePrune ├── has-symbols@1.0.1
+372 silly idealTree:prePrune ├── has@1.0.3
+372 silly idealTree:prePrune ├── hawk@3.1.3
+372 silly idealTree:prePrune ├── hoek@2.16.3
+372 silly idealTree:prePrune ├── html-entities@1.2.1
+372 silly idealTree:prePrune ├─┬ htmlparser2@3.8.3
+372 silly idealTree:prePrune │ ├── domhandler@2.3.0
+372 silly idealTree:prePrune │ ├── domutils@1.5.1
+372 silly idealTree:prePrune │ ├── entities@1.0.0
+372 silly idealTree:prePrune │ ├── isarray@0.0.1
+372 silly idealTree:prePrune │ ├── readable-stream@1.1.14
+372 silly idealTree:prePrune │ └── string_decoder@0.10.31
+372 silly idealTree:prePrune ├── http-signature@1.2.0
+372 silly idealTree:prePrune ├── i@0.3.6
+372 silly idealTree:prePrune ├── ieee754@1.1.13
+372 silly idealTree:prePrune ├── inflight@1.0.6
+372 silly idealTree:prePrune ├── inherits@2.0.4
+372 silly idealTree:prePrune ├── is-callable@1.2.2
+372 silly idealTree:prePrune ├── is-date-object@1.0.2
+372 silly idealTree:prePrune ├── is-natural-number@4.0.1
+372 silly idealTree:prePrune ├── is-negative-zero@2.0.0
+372 silly idealTree:prePrune ├── is-promise@2.1.0
+372 silly idealTree:prePrune ├── is-regex@1.1.1
+372 silly idealTree:prePrune ├── is-stream@1.1.0
+372 silly idealTree:prePrune ├── is-symbol@1.0.3
+372 silly idealTree:prePrune ├── is-typedarray@1.0.0
+372 silly idealTree:prePrune ├── isarray@1.0.0
+372 silly idealTree:prePrune ├── isgd@1.1.3
+372 silly idealTree:prePrune ├── iso8601-duration@1.2.0
+372 silly idealTree:prePrune ├── isstream@0.1.2
+372 silly idealTree:prePrune ├── js2xmlparser@4.0.1
+372 silly idealTree:prePrune ├── jsbn@0.1.1
+372 silly idealTree:prePrune ├── json-schema-traverse@0.4.1
+372 silly idealTree:prePrune ├── json-schema@0.2.3
+372 silly idealTree:prePrune ├── json-stable-stringify@1.0.1
+372 silly idealTree:prePrune ├── json-stringify-safe@5.0.1
+372 silly idealTree:prePrune ├── jsonify@0.0.0
+372 silly idealTree:prePrune ├── jsprim@1.4.1
+372 silly idealTree:prePrune ├── lodash.isfunction@3.0.9
+372 silly idealTree:prePrune ├── lodash@4.17.15
+372 silly idealTree:prePrune ├── long@4.0.0
+372 silly idealTree:prePrune ├─┬ lowdb@1.0.0
+372 silly idealTree:prePrune │ └── pify@3.0.0
+372 silly idealTree:prePrune ├─┬ lzma-native@3.0.8
+372 silly idealTree:prePrune │ ├── abbrev@1.1.1
+372 silly idealTree:prePrune │ ├── ajv@4.11.8
+372 silly idealTree:prePrune │ ├── ansi-regex@2.1.1
+372 silly idealTree:prePrune │ ├── aproba@1.2.0
+372 silly idealTree:prePrune │ ├── are-we-there-yet@1.1.4
+372 silly idealTree:prePrune │ ├── asn1@0.2.3
+372 silly idealTree:prePrune │ ├── assert-plus@0.2.0
+372 silly idealTree:prePrune │ ├── asynckit@0.4.0
+372 silly idealTree:prePrune │ ├── aws-sign2@0.6.0
+372 silly idealTree:prePrune │ ├── aws4@1.7.0
+372 silly idealTree:prePrune │ ├── balanced-match@1.0.0
+372 silly idealTree:prePrune │ ├── bcrypt-pbkdf@1.0.1
+372 silly idealTree:prePrune │ ├── block-stream@0.0.9
+372 silly idealTree:prePrune │ ├── boom@2.10.1
+372 silly idealTree:prePrune │ ├── brace-expansion@1.1.11
+372 silly idealTree:prePrune │ ├── caseless@0.12.0
+372 silly idealTree:prePrune │ ├── co@4.6.0
+372 silly idealTree:prePrune │ ├── code-point-at@1.1.0
+372 silly idealTree:prePrune │ ├── combined-stream@1.0.6
+372 silly idealTree:prePrune │ ├── concat-map@0.0.1
+372 silly idealTree:prePrune │ ├── console-control-strings@1.1.0
+372 silly idealTree:prePrune │ ├── core-util-is@1.0.2
+372 silly idealTree:prePrune │ ├── cryptiles@2.0.5
+372 silly idealTree:prePrune │ ├─┬ dashdash@1.14.1
+372 silly idealTree:prePrune │ │ └── assert-plus@1.0.0
+372 silly idealTree:prePrune │ ├── debug@2.6.9
+372 silly idealTree:prePrune │ ├── deep-extend@0.5.1
+372 silly idealTree:prePrune │ ├── delayed-stream@1.0.0
+372 silly idealTree:prePrune │ ├── delegates@1.0.0
+372 silly idealTree:prePrune │ ├── detect-libc@1.0.3
+372 silly idealTree:prePrune │ ├── ecc-jsbn@0.1.1
+372 silly idealTree:prePrune │ ├── extend@3.0.1
+372 silly idealTree:prePrune │ ├── extsprintf@1.3.0
+372 silly idealTree:prePrune │ ├── forever-agent@0.6.1
+372 silly idealTree:prePrune │ ├── form-data@2.1.4
+372 silly idealTree:prePrune │ ├── fs.realpath@1.0.0
+372 silly idealTree:prePrune │ ├── fstream-ignore@1.0.5
+372 silly idealTree:prePrune │ ├── fstream@1.0.11
+372 silly idealTree:prePrune │ ├── gauge@2.7.4
+372 silly idealTree:prePrune │ ├─┬ getpass@0.1.7
+372 silly idealTree:prePrune │ │ └── assert-plus@1.0.0
+372 silly idealTree:prePrune │ ├── glob@7.1.2
+372 silly idealTree:prePrune │ ├── graceful-fs@4.1.11
+372 silly idealTree:prePrune │ ├── har-schema@1.0.5
+372 silly idealTree:prePrune │ ├── har-validator@4.2.1
+372 silly idealTree:prePrune │ ├── has-unicode@2.0.1
+372 silly idealTree:prePrune │ ├── hawk@3.1.3
+372 silly idealTree:prePrune │ ├── hoek@2.16.3
+372 silly idealTree:prePrune │ ├── http-signature@1.1.1
+372 silly idealTree:prePrune │ ├── inflight@1.0.6
+372 silly idealTree:prePrune │ ├── inherits@2.0.3
+372 silly idealTree:prePrune │ ├── ini@1.3.5
+372 silly idealTree:prePrune │ ├── is-fullwidth-code-point@1.0.0
+372 silly idealTree:prePrune │ ├── is-typedarray@1.0.0
+372 silly idealTree:prePrune │ ├── isarray@1.0.0
+372 silly idealTree:prePrune │ ├── isstream@0.1.2
+372 silly idealTree:prePrune │ ├── jsbn@0.1.1
+372 silly idealTree:prePrune │ ├── json-schema@0.2.3
+372 silly idealTree:prePrune │ ├── json-stable-stringify@1.0.1
+372 silly idealTree:prePrune │ ├── json-stringify-safe@5.0.1
+372 silly idealTree:prePrune │ ├── jsonify@0.0.0
+372 silly idealTree:prePrune │ ├─┬ jsprim@1.4.1
+372 silly idealTree:prePrune │ │ └── assert-plus@1.0.0
+372 silly idealTree:prePrune │ ├── mime-db@1.33.0
+372 silly idealTree:prePrune │ ├── mime-types@2.1.18
+372 silly idealTree:prePrune │ ├── minimatch@3.0.4
+372 silly idealTree:prePrune │ ├── minimist@0.0.8
+372 silly idealTree:prePrune │ ├── mkdirp@0.5.1
+372 silly idealTree:prePrune │ ├── ms@2.0.0
+372 silly idealTree:prePrune │ ├── node-pre-gyp@0.6.39
+372 silly idealTree:prePrune │ ├── nopt@4.0.1
+372 silly idealTree:prePrune │ ├── npmlog@4.1.2
+372 silly idealTree:prePrune │ ├── number-is-nan@1.0.1
+372 silly idealTree:prePrune │ ├── oauth-sign@0.8.2
+372 silly idealTree:prePrune │ ├── object-assign@4.1.1
+372 silly idealTree:prePrune │ ├── once@1.4.0
+372 silly idealTree:prePrune │ ├── os-homedir@1.0.2
+372 silly idealTree:prePrune │ ├── os-tmpdir@1.0.2
+372 silly idealTree:prePrune │ ├── osenv@0.1.5
+372 silly idealTree:prePrune │ ├── path-is-absolute@1.0.1
+372 silly idealTree:prePrune │ ├── performance-now@0.2.0
+372 silly idealTree:prePrune │ ├── process-nextick-args@2.0.0
+372 silly idealTree:prePrune │ ├── punycode@1.4.1
+372 silly idealTree:prePrune │ ├── qs@6.4.0
+372 silly idealTree:prePrune │ ├─┬ rc@1.2.7
+372 silly idealTree:prePrune │ │ └── minimist@1.2.0
+372 silly idealTree:prePrune │ ├── readable-stream@2.3.6
+372 silly idealTree:prePrune │ ├── request@2.81.0
+372 silly idealTree:prePrune │ ├── rimraf@2.6.2
+372 silly idealTree:prePrune │ ├── safe-buffer@5.1.2
+372 silly idealTree:prePrune │ ├── semver@5.5.0
+372 silly idealTree:prePrune │ ├── set-blocking@2.0.0
+372 silly idealTree:prePrune │ ├── signal-exit@3.0.2
+372 silly idealTree:prePrune │ ├── sntp@1.0.9
+372 silly idealTree:prePrune │ ├─┬ sshpk@1.14.1
+372 silly idealTree:prePrune │ │ └── assert-plus@1.0.0
+372 silly idealTree:prePrune │ ├── string_decoder@1.1.1
+372 silly idealTree:prePrune │ ├── string-width@1.0.2
+372 silly idealTree:prePrune │ ├── stringstream@0.0.5
+372 silly idealTree:prePrune │ ├── strip-ansi@3.0.1
+372 silly idealTree:prePrune │ ├── strip-json-comments@2.0.1
+372 silly idealTree:prePrune │ ├── tar-pack@3.4.1
+372 silly idealTree:prePrune │ ├── tar@2.2.1
+372 silly idealTree:prePrune │ ├── tough-cookie@2.3.4
+372 silly idealTree:prePrune │ ├── tunnel-agent@0.6.0
+372 silly idealTree:prePrune │ ├── tweetnacl@0.14.5
+372 silly idealTree:prePrune │ ├── uid-number@0.0.6
+372 silly idealTree:prePrune │ ├── util-deprecate@1.0.2
+372 silly idealTree:prePrune │ ├── uuid@3.2.1
+372 silly idealTree:prePrune │ ├─┬ verror@1.10.0
+372 silly idealTree:prePrune │ │ └── assert-plus@1.0.0
+372 silly idealTree:prePrune │ ├── wide-align@1.1.2
+372 silly idealTree:prePrune │ └── wrappy@1.0.2
+372 silly idealTree:prePrune ├── m3u8stream@0.6.2
+372 silly idealTree:prePrune ├─┬ make-dir@1.3.0
+372 silly idealTree:prePrune │ └── pify@3.0.0
+372 silly idealTree:prePrune ├─┬ mal-scraper@2.11.1
+372 silly idealTree:prePrune │ ├── cheerio@1.0.0-rc.3
+372 silly idealTree:prePrune │ ├── css-select@1.2.0
+372 silly idealTree:prePrune │ ├── css-what@2.1.3
+372 silly idealTree:prePrune │ ├── domutils@1.5.1
+372 silly idealTree:prePrune │ ├── htmlparser2@3.10.1
+372 silly idealTree:prePrune │ └── readable-stream@3.6.0
+372 silly idealTree:prePrune ├── match-sorter@4.2.1
+372 silly idealTree:prePrune ├── mime-db@1.40.0
+372 silly idealTree:prePrune ├── mime-types@2.1.24
+372 silly idealTree:prePrune ├── miniget@1.6.0
+372 silly idealTree:prePrune ├── minimatch@3.0.4
+372 silly idealTree:prePrune ├── minimist@0.0.8
+372 silly idealTree:prePrune ├── mkdirp@0.5.1
+372 silly idealTree:prePrune ├── moment@2.29.1
+372 silly idealTree:prePrune ├── ms@2.1.2
+372 silly idealTree:prePrune ├── mute-stream@0.0.8
+372 silly idealTree:prePrune ├── nan@2.14.0
+372 silly idealTree:prePrune ├── ncp@1.0.1
+372 silly idealTree:prePrune ├── node-fetch@2.6.0
+372 silly idealTree:prePrune ├── nth-check@1.0.2
+372 silly idealTree:prePrune ├── oauth-sign@0.9.0
+372 silly idealTree:prePrune ├── object-assign@4.1.1
+372 silly idealTree:prePrune ├── object-inspect@1.8.0
+372 silly idealTree:prePrune ├── object-keys@1.1.1
+372 silly idealTree:prePrune ├─┬ object.assign@4.1.1
+372 silly idealTree:prePrune │ └── es-abstract@1.18.0-next.1
+372 silly idealTree:prePrune ├── once@1.4.0
+372 silly idealTree:prePrune ├── opusscript@0.0.7
+372 silly idealTree:prePrune ├── parse5@3.0.3
+372 silly idealTree:prePrune ├── path-is-absolute@1.0.1
+372 silly idealTree:prePrune ├── pend@1.2.0
+372 silly idealTree:prePrune ├── performance-now@2.1.0
+372 silly idealTree:prePrune ├── pify@2.3.0
+372 silly idealTree:prePrune ├── pinkie-promise@2.0.1
+372 silly idealTree:prePrune ├── pinkie@2.0.4
+372 silly idealTree:prePrune ├── pkginfo@0.4.1
+372 silly idealTree:prePrune ├── prism-media@0.0.4
+372 silly idealTree:prePrune ├── process-nextick-args@2.0.1
+372 silly idealTree:prePrune ├── prompt@1.0.0
+372 silly idealTree:prePrune ├── psl@1.4.0
+372 silly idealTree:prePrune ├── punycode@2.1.1
+372 silly idealTree:prePrune ├── qs@6.5.2
+372 silly idealTree:prePrune ├── read@1.0.7
+372 silly idealTree:prePrune ├─┬ readable-stream@2.3.6
+372 silly idealTree:prePrune │ ├── safe-buffer@5.1.2
+372 silly idealTree:prePrune │ └── string_decoder@1.1.1
+372 silly idealTree:prePrune ├── regenerator-runtime@0.13.7
+372 silly idealTree:prePrune ├── remove-accents@0.4.2
+372 silly idealTree:prePrune ├── request-promise-core@1.1.2
+372 silly idealTree:prePrune ├── request-promise@4.2.4
+372 silly idealTree:prePrune ├── request@2.88.0
+372 silly idealTree:prePrune ├── revalidator@0.1.8
+372 silly idealTree:prePrune ├── rimraf@2.7.1
+372 silly idealTree:prePrune ├── safe-buffer@5.2.0
+372 silly idealTree:prePrune ├── safer-buffer@2.1.2
+372 silly idealTree:prePrune ├── sax@1.2.4
+372 silly idealTree:prePrune ├── seek-bzip@1.0.5
+372 silly idealTree:prePrune ├── simple-youtube-api@5.2.1
+372 silly idealTree:prePrune ├── snekfetch@4.0.4
+372 silly idealTree:prePrune ├── sntp@1.0.9
+372 silly idealTree:prePrune ├─┬ sshpk@1.16.1
+372 silly idealTree:prePrune │ └── tweetnacl@0.14.5
+372 silly idealTree:prePrune ├── stack-trace@0.0.10
+372 silly idealTree:prePrune ├── stealthy-require@1.1.1
+372 silly idealTree:prePrune ├── steno@0.4.4
+372 silly idealTree:prePrune ├── string_decoder@1.3.0
+372 silly idealTree:prePrune ├── string.prototype.trimend@1.0.1
+372 silly idealTree:prePrune ├── string.prototype.trimstart@1.0.1
+372 silly idealTree:prePrune ├── stringstream@0.0.6
+372 silly idealTree:prePrune ├── strip-dirs@2.1.0
+372 silly idealTree:prePrune ├── tar-stream@1.6.2
+372 silly idealTree:prePrune ├── through@2.3.8
+372 silly idealTree:prePrune ├── to-buffer@1.1.1
+372 silly idealTree:prePrune ├─┬ tough-cookie@2.4.3
+372 silly idealTree:prePrune │ └── punycode@1.4.1
+372 silly idealTree:prePrune ├── tunnel-agent@0.6.0
+372 silly idealTree:prePrune ├── tweetnacl@1.0.3
+372 silly idealTree:prePrune ├── unbzip2-stream@1.3.3
+372 silly idealTree:prePrune ├── uri-js@4.2.2
+372 silly idealTree:prePrune ├── util-deprecate@1.0.2
+372 silly idealTree:prePrune ├── utile@0.3.0
+372 silly idealTree:prePrune ├── uuid@3.3.3
+372 silly idealTree:prePrune ├── verror@1.10.0
+372 silly idealTree:prePrune ├─┬ winston@2.1.1
+372 silly idealTree:prePrune │ ├── async@1.0.0
+372 silly idealTree:prePrune │ ├── colors@1.0.3
+372 silly idealTree:prePrune │ └── pkginfo@0.3.1
+372 silly idealTree:prePrune ├── wrappy@1.0.2
+372 silly idealTree:prePrune ├── ws@6.2.1
+372 silly idealTree:prePrune ├── xml2js@0.4.23
+372 silly idealTree:prePrune ├── xmlbuilder@11.0.1
+372 silly idealTree:prePrune ├── xmlcreate@2.0.3
+372 silly idealTree:prePrune ├── xtend@4.0.2
+372 silly idealTree:prePrune ├── yauzl@2.10.0
+372 silly idealTree:prePrune ├─┬ youtube-info@1.3.2
+372 silly idealTree:prePrune │ ├── ajv@4.11.8
+372 silly idealTree:prePrune │ ├── assert-plus@0.2.0
+372 silly idealTree:prePrune │ ├── aws-sign2@0.6.0
+372 silly idealTree:prePrune │ ├── form-data@2.1.4
+372 silly idealTree:prePrune │ ├── har-schema@1.0.5
+372 silly idealTree:prePrune │ ├── har-validator@4.2.1
+372 silly idealTree:prePrune │ ├── http-signature@1.1.1
+372 silly idealTree:prePrune │ ├── oauth-sign@0.8.2
+372 silly idealTree:prePrune │ ├── performance-now@0.2.0
+372 silly idealTree:prePrune │ ├── punycode@1.4.1
+372 silly idealTree:prePrune │ ├── qs@6.4.0
+372 silly idealTree:prePrune │ ├── request@2.81.0
+372 silly idealTree:prePrune │ └── tough-cookie@2.3.4
+372 silly idealTree:prePrune ├── youtube-node@1.3.3
+372 silly idealTree:prePrune ├─┬ ytdl-core-discord@1.2.3
+372 silly idealTree:prePrune │ ├── html-entities@1.3.1
+372 silly idealTree:prePrune │ ├─┬ m3u8stream@0.7.1
+372 silly idealTree:prePrune │ │ └── miniget@1.7.2
+372 silly idealTree:prePrune │ ├── miniget@2.0.1
+372 silly idealTree:prePrune │ ├── prism-media@1.2.2
+372 silly idealTree:prePrune │ └── ytdl-core@3.3.0
+372 silly idealTree:prePrune ├── ytdl-core@0.29.7
+372 silly idealTree:prePrune ├── ytpl@0.1.22
+372 silly idealTree:prePrune └── ytsearcher@1.2.3
+373 silly loadIdealTree Finishing
+374 silly currentTree music-bot@1.0.0
+374 silly currentTree ├── @babel/runtime@7.11.2
+374 silly currentTree ├── @types/node@14.11.5
+374 silly currentTree ├── ajv@6.10.2
+374 silly currentTree ├── asn1@0.2.4
+374 silly currentTree ├── assert-plus@1.0.0
+374 silly currentTree ├── async-limiter@1.0.1
+374 silly currentTree ├── async@0.9.2
+374 silly currentTree ├── asynckit@0.4.0
+374 silly currentTree ├── aws-sign2@0.7.0
+374 silly currentTree ├── aws4@1.8.0
+374 silly currentTree ├── axios@0.19.2
+374 silly currentTree ├── balanced-match@1.0.0
+374 silly currentTree ├── base64-js@1.3.1
+374 silly currentTree ├─┬ bcrypt-pbkdf@1.0.2
+374 silly currentTree │ └── tweetnacl@0.14.5
+374 silly currentTree ├── bl@1.2.2
+374 silly currentTree ├── bluebird@3.7.0
+374 silly currentTree ├── boolbase@1.0.0
+374 silly currentTree ├── boom@2.10.1
+374 silly currentTree ├── brace-expansion@1.1.11
+374 silly currentTree ├── buffer-alloc-unsafe@1.1.0
+374 silly currentTree ├── buffer-alloc@1.2.0
+374 silly currentTree ├── buffer-crc32@0.2.13
+374 silly currentTree ├── buffer-fill@1.0.0
+374 silly currentTree ├── buffer@5.4.3
+374 silly currentTree ├── caseless@0.12.0
+374 silly currentTree ├─┬ cheerio@0.19.0
+374 silly currentTree │ └── lodash@3.10.1
+374 silly currentTree ├── co@4.6.0
+374 silly currentTree ├── colors@1.4.0
+374 silly currentTree ├── combined-stream@1.0.8
+374 silly currentTree ├── commander@2.8.1
+374 silly currentTree ├── concat-map@0.0.1
+374 silly currentTree ├── core-util-is@1.0.2
+374 silly currentTree ├── cryptiles@2.0.5
+374 silly currentTree ├── css-select@1.0.0
+374 silly currentTree ├── css-what@1.0.0
+374 silly currentTree ├── cycle@1.0.3
+374 silly currentTree ├── dashdash@1.14.1
+374 silly currentTree ├─┬ debug@2.6.9
+374 silly currentTree │ └── ms@2.0.0
+374 silly currentTree ├── decompress-tar@4.1.1
+374 silly currentTree ├─┬ decompress-tarbz2@4.1.1
+374 silly currentTree │ └── file-type@6.2.0
+374 silly currentTree ├── decompress-targz@4.1.1
+374 silly currentTree ├─┬ decompress-tarxz@2.1.1
+374 silly currentTree │ └── file-type@3.9.0
+374 silly currentTree ├─┬ decompress-unzip@4.0.1
+374 silly currentTree │ └── file-type@3.9.0
+374 silly currentTree ├── decompress@4.2.0
+374 silly currentTree ├── deep-equal@0.2.2
+374 silly currentTree ├── define-properties@1.1.3
+374 silly currentTree ├── delayed-stream@1.0.0
+374 silly currentTree ├── discloud-status@0.1.6
+374 silly currentTree ├─┬ discord.js-musicbot-addon@13.9.1
+374 silly currentTree │ ├─┬ m3u8stream@0.6.5
+374 silly currentTree │ │ └── miniget@1.7.2
+374 silly currentTree │ └── ytdl-core@1.0.9
+374 silly currentTree ├─┬ discord.js@11.6.4
+374 silly currentTree │ └── snekfetch@3.6.4
+374 silly currentTree ├── dom-serializer@0.1.1
+374 silly currentTree ├── domelementtype@1.3.1
+374 silly currentTree ├── domhandler@2.4.2
+374 silly currentTree ├── domutils@1.4.3
+374 silly currentTree ├── ecc-jsbn@0.1.2
+374 silly currentTree ├── end-of-stream@1.4.4
+374 silly currentTree ├── entities@1.1.2
+374 silly currentTree ├── es-abstract@1.17.7
+374 silly currentTree ├── es-to-primitive@1.2.1
+374 silly currentTree ├── extend@3.0.2
+374 silly currentTree ├── extsprintf@1.3.0
+374 silly currentTree ├── eyes@0.1.8
+374 silly currentTree ├── fast-deep-equal@2.0.1
+374 silly currentTree ├── fast-json-stable-stringify@2.0.0
+374 silly currentTree ├── fd-slicer@1.1.0
+374 silly currentTree ├── file-type@5.2.0
+374 silly currentTree ├─┬ follow-redirects@1.5.10
+374 silly currentTree │ ├── debug@3.1.0
+374 silly currentTree │ └── ms@2.0.0
+374 silly currentTree ├── forever-agent@0.6.1
+374 silly currentTree ├── form-data@2.3.3
+374 silly currentTree ├── fs-constants@1.0.0
+374 silly currentTree ├── fs.realpath@1.0.0
+374 silly currentTree ├── fs@0.0.1-security
+374 silly currentTree ├── function-bind@1.1.1
+374 silly currentTree ├── get-stream@2.3.1
+374 silly currentTree ├── get-youtube-id@1.0.1
+374 silly currentTree ├── getpass@0.1.7
+374 silly currentTree ├── glob@7.1.4
+374 silly currentTree ├── graceful-fs@4.2.2
+374 silly currentTree ├── graceful-readlink@1.0.1
+374 silly currentTree ├── har-schema@2.0.0
+374 silly currentTree ├── har-validator@5.1.3
+374 silly currentTree ├── has-symbols@1.0.1
+374 silly currentTree ├── has@1.0.3
+374 silly currentTree ├── hawk@3.1.3
+374 silly currentTree ├── hoek@2.16.3
+374 silly currentTree ├── html-entities@1.2.1
+374 silly currentTree ├─┬ htmlparser2@3.8.3
+374 silly currentTree │ ├── domhandler@2.3.0
+374 silly currentTree │ ├── domutils@1.5.1
+374 silly currentTree │ ├── entities@1.0.0
+374 silly currentTree │ ├── isarray@0.0.1
+374 silly currentTree │ ├── readable-stream@1.1.14
+374 silly currentTree │ └── string_decoder@0.10.31
+374 silly currentTree ├── http-signature@1.2.0
+374 silly currentTree ├── i@0.3.6
+374 silly currentTree ├── ieee754@1.1.13
+374 silly currentTree ├── inflight@1.0.6
+374 silly currentTree ├── inherits@2.0.4
+374 silly currentTree ├── is-callable@1.2.2
+374 silly currentTree ├── is-date-object@1.0.2
+374 silly currentTree ├── is-natural-number@4.0.1
+374 silly currentTree ├── is-negative-zero@2.0.0
+374 silly currentTree ├── is-promise@2.1.0
+374 silly currentTree ├── is-regex@1.1.1
+374 silly currentTree ├── is-stream@1.1.0
+374 silly currentTree ├── is-symbol@1.0.3
+374 silly currentTree ├── is-typedarray@1.0.0
+374 silly currentTree ├── isarray@1.0.0
+374 silly currentTree ├── isgd@1.1.3
+374 silly currentTree ├── iso8601-duration@1.2.0
+374 silly currentTree ├── isstream@0.1.2
+374 silly currentTree ├── js2xmlparser@4.0.1
+374 silly currentTree ├── jsbn@0.1.1
+374 silly currentTree ├── json-schema-traverse@0.4.1
+374 silly currentTree ├── json-schema@0.2.3
+374 silly currentTree ├── json-stable-stringify@1.0.1
+374 silly currentTree ├── json-stringify-safe@5.0.1
+374 silly currentTree ├── jsonify@0.0.0
+374 silly currentTree ├── jsprim@1.4.1
+374 silly currentTree ├── lodash.isfunction@3.0.9
+374 silly currentTree ├── lodash@4.17.15
+374 silly currentTree ├── long@4.0.0
+374 silly currentTree ├─┬ lowdb@1.0.0
+374 silly currentTree │ └── pify@3.0.0
+374 silly currentTree ├─┬ lzma-native@3.0.8
+374 silly currentTree │ ├── abbrev@1.1.1
+374 silly currentTree │ ├── ajv@4.11.8
+374 silly currentTree │ ├── ansi-regex@2.1.1
+374 silly currentTree │ ├── aproba@1.2.0
+374 silly currentTree │ ├── are-we-there-yet@1.1.4
+374 silly currentTree │ ├── asn1@0.2.3
+374 silly currentTree │ ├── assert-plus@0.2.0
+374 silly currentTree │ ├── asynckit@0.4.0
+374 silly currentTree │ ├── aws-sign2@0.6.0
+374 silly currentTree │ ├── aws4@1.7.0
+374 silly currentTree │ ├── balanced-match@1.0.0
+374 silly currentTree │ ├── bcrypt-pbkdf@1.0.1
+374 silly currentTree │ ├── block-stream@0.0.9
+374 silly currentTree │ ├── boom@2.10.1
+374 silly currentTree │ ├── brace-expansion@1.1.11
+374 silly currentTree │ ├── caseless@0.12.0
+374 silly currentTree │ ├── co@4.6.0
+374 silly currentTree │ ├── code-point-at@1.1.0
+374 silly currentTree │ ├── combined-stream@1.0.6
+374 silly currentTree │ ├── concat-map@0.0.1
+374 silly currentTree │ ├── console-control-strings@1.1.0
+374 silly currentTree │ ├── core-util-is@1.0.2
+374 silly currentTree │ ├── cryptiles@2.0.5
+374 silly currentTree │ ├─┬ dashdash@1.14.1
+374 silly currentTree │ │ └── assert-plus@1.0.0
+374 silly currentTree │ ├── debug@2.6.9
+374 silly currentTree │ ├── deep-extend@0.5.1
+374 silly currentTree │ ├── delayed-stream@1.0.0
+374 silly currentTree │ ├── delegates@1.0.0
+374 silly currentTree │ ├── detect-libc@1.0.3
+374 silly currentTree │ ├── ecc-jsbn@0.1.1
+374 silly currentTree │ ├── extend@3.0.1
+374 silly currentTree │ ├── extsprintf@1.3.0
+374 silly currentTree │ ├── forever-agent@0.6.1
+374 silly currentTree │ ├── form-data@2.1.4
+374 silly currentTree │ ├── fs.realpath@1.0.0
+374 silly currentTree │ ├── fstream-ignore@1.0.5
+374 silly currentTree │ ├── fstream@1.0.11
+374 silly currentTree │ ├── gauge@2.7.4
+374 silly currentTree │ ├─┬ getpass@0.1.7
+374 silly currentTree │ │ └── assert-plus@1.0.0
+374 silly currentTree │ ├── glob@7.1.2
+374 silly currentTree │ ├── graceful-fs@4.1.11
+374 silly currentTree │ ├── har-schema@1.0.5
+374 silly currentTree │ ├── har-validator@4.2.1
+374 silly currentTree │ ├── has-unicode@2.0.1
+374 silly currentTree │ ├── hawk@3.1.3
+374 silly currentTree │ ├── hoek@2.16.3
+374 silly currentTree │ ├── http-signature@1.1.1
+374 silly currentTree │ ├── inflight@1.0.6
+374 silly currentTree │ ├── inherits@2.0.3
+374 silly currentTree │ ├── ini@1.3.5
+374 silly currentTree │ ├── is-fullwidth-code-point@1.0.0
+374 silly currentTree │ ├── is-typedarray@1.0.0
+374 silly currentTree │ ├── isarray@1.0.0
+374 silly currentTree │ ├── isstream@0.1.2
+374 silly currentTree │ ├── jsbn@0.1.1
+374 silly currentTree │ ├── json-schema@0.2.3
+374 silly currentTree │ ├── json-stable-stringify@1.0.1
+374 silly currentTree │ ├── json-stringify-safe@5.0.1
+374 silly currentTree │ ├── jsonify@0.0.0
+374 silly currentTree │ ├─┬ jsprim@1.4.1
+374 silly currentTree │ │ └── assert-plus@1.0.0
+374 silly currentTree │ ├── mime-db@1.33.0
+374 silly currentTree │ ├── mime-types@2.1.18
+374 silly currentTree │ ├── minimatch@3.0.4
+374 silly currentTree │ ├── minimist@0.0.8
+374 silly currentTree │ ├── mkdirp@0.5.1
+374 silly currentTree │ ├── ms@2.0.0
+374 silly currentTree │ ├── node-pre-gyp@0.6.39
+374 silly currentTree │ ├── nopt@4.0.1
+374 silly currentTree │ ├── npmlog@4.1.2
+374 silly currentTree │ ├── number-is-nan@1.0.1
+374 silly currentTree │ ├── oauth-sign@0.8.2
+374 silly currentTree │ ├── object-assign@4.1.1
+374 silly currentTree │ ├── once@1.4.0
+374 silly currentTree │ ├── os-homedir@1.0.2
+374 silly currentTree │ ├── os-tmpdir@1.0.2
+374 silly currentTree │ ├── osenv@0.1.5
+374 silly currentTree │ ├── path-is-absolute@1.0.1
+374 silly currentTree │ ├── performance-now@0.2.0
+374 silly currentTree │ ├── process-nextick-args@2.0.0
+374 silly currentTree │ ├── punycode@1.4.1
+374 silly currentTree │ ├── qs@6.4.0
+374 silly currentTree │ ├─┬ rc@1.2.7
+374 silly currentTree │ │ └── minimist@1.2.0
+374 silly currentTree │ ├── readable-stream@2.3.6
+374 silly currentTree │ ├── request@2.81.0
+374 silly currentTree │ ├── rimraf@2.6.2
+374 silly currentTree │ ├── safe-buffer@5.1.2
+374 silly currentTree │ ├── semver@5.5.0
+374 silly currentTree │ ├── set-blocking@2.0.0
+374 silly currentTree │ ├── signal-exit@3.0.2
+374 silly currentTree │ ├── sntp@1.0.9
+374 silly currentTree │ ├─┬ sshpk@1.14.1
+374 silly currentTree │ │ └── assert-plus@1.0.0
+374 silly currentTree │ ├── string_decoder@1.1.1
+374 silly currentTree │ ├── string-width@1.0.2
+374 silly currentTree │ ├── stringstream@0.0.5
+374 silly currentTree │ ├── strip-ansi@3.0.1
+374 silly currentTree │ ├── strip-json-comments@2.0.1
+374 silly currentTree │ ├── tar-pack@3.4.1
+374 silly currentTree │ ├── tar@2.2.1
+374 silly currentTree │ ├── tough-cookie@2.3.4
+374 silly currentTree │ ├── tunnel-agent@0.6.0
+374 silly currentTree │ ├── tweetnacl@0.14.5
+374 silly currentTree │ ├── uid-number@0.0.6
+374 silly currentTree │ ├── util-deprecate@1.0.2
+374 silly currentTree │ ├── uuid@3.2.1
+374 silly currentTree │ ├─┬ verror@1.10.0
+374 silly currentTree │ │ └── assert-plus@1.0.0
+374 silly currentTree │ ├── wide-align@1.1.2
+374 silly currentTree │ └── wrappy@1.0.2
+374 silly currentTree ├── m3u8stream@0.6.2
+374 silly currentTree ├─┬ make-dir@1.3.0
+374 silly currentTree │ └── pify@3.0.0
+374 silly currentTree ├─┬ mal-scraper@2.11.1
+374 silly currentTree │ ├── cheerio@1.0.0-rc.3
+374 silly currentTree │ ├── css-select@1.2.0
+374 silly currentTree │ ├── css-what@2.1.3
+374 silly currentTree │ ├── domutils@1.5.1
+374 silly currentTree │ ├── htmlparser2@3.10.1
+374 silly currentTree │ └── readable-stream@3.6.0
+374 silly currentTree ├── match-sorter@4.2.1
+374 silly currentTree ├── mime-db@1.40.0
+374 silly currentTree ├── mime-types@2.1.24
+374 silly currentTree ├── miniget@1.6.0
+374 silly currentTree ├── minimatch@3.0.4
+374 silly currentTree ├── minimist@0.0.8
+374 silly currentTree ├── mkdirp@0.5.1
+374 silly currentTree ├── moment@2.29.1
+374 silly currentTree ├── ms@2.1.2
+374 silly currentTree ├── mute-stream@0.0.8
+374 silly currentTree ├── nan@2.14.0
+374 silly currentTree ├── ncp@1.0.1
+374 silly currentTree ├── node-fetch@2.6.0
+374 silly currentTree ├── nth-check@1.0.2
+374 silly currentTree ├── oauth-sign@0.9.0
+374 silly currentTree ├── object-assign@4.1.1
+374 silly currentTree ├── object-inspect@1.8.0
+374 silly currentTree ├── object-keys@1.1.1
+374 silly currentTree ├─┬ object.assign@4.1.1
+374 silly currentTree │ └── es-abstract@1.18.0-next.1
+374 silly currentTree ├── once@1.4.0
+374 silly currentTree ├── opusscript@0.0.7
+374 silly currentTree ├── parse5@3.0.3
+374 silly currentTree ├── path-is-absolute@1.0.1
+374 silly currentTree ├── pend@1.2.0
+374 silly currentTree ├── performance-now@2.1.0
+374 silly currentTree ├── pify@2.3.0
+374 silly currentTree ├── pinkie-promise@2.0.1
+374 silly currentTree ├── pinkie@2.0.4
+374 silly currentTree ├── pkginfo@0.4.1
+374 silly currentTree ├── prism-media@0.0.4
+374 silly currentTree ├── process-nextick-args@2.0.1
+374 silly currentTree ├── prompt@1.0.0
+374 silly currentTree ├── psl@1.4.0
+374 silly currentTree ├── punycode@2.1.1
+374 silly currentTree ├── qs@6.5.2
+374 silly currentTree ├── read@1.0.7
+374 silly currentTree ├─┬ readable-stream@2.3.6
+374 silly currentTree │ └── safe-buffer@5.1.2
+374 silly currentTree ├── regenerator-runtime@0.13.7
+374 silly currentTree ├── remove-accents@0.4.2
+374 silly currentTree ├── request-promise-core@1.1.2
+374 silly currentTree ├── request-promise@4.2.4
+374 silly currentTree ├── request@2.88.0
+374 silly currentTree ├── revalidator@0.1.8
+374 silly currentTree ├── rimraf@2.7.1
+374 silly currentTree ├── safe-buffer@5.2.0
+374 silly currentTree ├── safer-buffer@2.1.2
+374 silly currentTree ├── sax@1.2.4
+374 silly currentTree ├── seek-bzip@1.0.5
+374 silly currentTree ├── simple-youtube-api@5.2.1
+374 silly currentTree ├── snekfetch@4.0.4
+374 silly currentTree ├── sntp@1.0.9
+374 silly currentTree ├─┬ sshpk@1.16.1
+374 silly currentTree │ └── tweetnacl@0.14.5
+374 silly currentTree ├── stack-trace@0.0.10
+374 silly currentTree ├── stealthy-require@1.1.1
+374 silly currentTree ├── steno@0.4.4
+374 silly currentTree ├── string_decoder@1.3.0
+374 silly currentTree ├── string.prototype.trimend@1.0.1
+374 silly currentTree ├── string.prototype.trimstart@1.0.1
+374 silly currentTree ├── stringstream@0.0.6
+374 silly currentTree ├── strip-dirs@2.1.0
+374 silly currentTree ├── tar-stream@1.6.2
+374 silly currentTree ├── through@2.3.8
+374 silly currentTree ├── to-buffer@1.1.1
+374 silly currentTree ├─┬ tough-cookie@2.4.3
+374 silly currentTree │ └── punycode@1.4.1
+374 silly currentTree ├── tunnel-agent@0.6.0
+374 silly currentTree ├── tweetnacl@1.0.3
+374 silly currentTree ├── unbzip2-stream@1.3.3
+374 silly currentTree ├── uri-js@4.2.2
+374 silly currentTree ├── util-deprecate@1.0.2
+374 silly currentTree ├── utile@0.3.0
+374 silly currentTree ├── uuid@3.3.3
+374 silly currentTree ├── verror@1.10.0
+374 silly currentTree ├─┬ winston@2.1.1
+374 silly currentTree │ ├── async@1.0.0
+374 silly currentTree │ ├── colors@1.0.3
+374 silly currentTree │ └── pkginfo@0.3.1
+374 silly currentTree ├── wrappy@1.0.2
+374 silly currentTree ├── ws@6.2.1
+374 silly currentTree ├── xml2js@0.4.23
+374 silly currentTree ├── xmlbuilder@11.0.1
+374 silly currentTree ├── xmlcreate@2.0.3
+374 silly currentTree ├── xtend@4.0.2
+374 silly currentTree ├── yauzl@2.10.0
+374 silly currentTree ├─┬ youtube-info@1.3.2
+374 silly currentTree │ ├── ajv@4.11.8
+374 silly currentTree │ ├── assert-plus@0.2.0
+374 silly currentTree │ ├── aws-sign2@0.6.0
+374 silly currentTree │ ├── form-data@2.1.4
+374 silly currentTree │ ├── har-schema@1.0.5
+374 silly currentTree │ ├── har-validator@4.2.1
+374 silly currentTree │ ├── http-signature@1.1.1
+374 silly currentTree │ ├── oauth-sign@0.8.2
+374 silly currentTree │ ├── performance-now@0.2.0
+374 silly currentTree │ ├── punycode@1.4.1
+374 silly currentTree │ ├── qs@6.4.0
+374 silly currentTree │ ├── request@2.81.0
+374 silly currentTree │ └── tough-cookie@2.3.4
+374 silly currentTree ├── youtube-node@1.3.3
+374 silly currentTree ├─┬ ytdl-core-discord@1.2.3
+374 silly currentTree │ ├── html-entities@1.3.1
+374 silly currentTree │ ├─┬ m3u8stream@0.7.1
+374 silly currentTree │ │ └── miniget@1.7.2
+374 silly currentTree │ ├── miniget@2.0.1
+374 silly currentTree │ ├── prism-media@1.2.2
+374 silly currentTree │ └── ytdl-core@3.3.0
+374 silly currentTree ├── ytdl-core@0.29.7
+374 silly currentTree ├── ytpl@0.1.22
+374 silly currentTree └── ytsearcher@1.2.3
+375 silly idealTree music-bot@1.0.0
+375 silly idealTree ├── @babel/runtime@7.11.2
+375 silly idealTree ├── @types/node@14.11.5
+375 silly idealTree ├── ajv@6.10.2
+375 silly idealTree ├── asn1@0.2.4
+375 silly idealTree ├── assert-plus@1.0.0
+375 silly idealTree ├── async-limiter@1.0.1
+375 silly idealTree ├── async@0.9.2
+375 silly idealTree ├── asynckit@0.4.0
+375 silly idealTree ├── aws-sign2@0.7.0
+375 silly idealTree ├── aws4@1.8.0
+375 silly idealTree ├── axios@0.19.2
+375 silly idealTree ├── balanced-match@1.0.0
+375 silly idealTree ├── base64-js@1.3.1
+375 silly idealTree ├─┬ bcrypt-pbkdf@1.0.2
+375 silly idealTree │ └── tweetnacl@0.14.5
+375 silly idealTree ├── bl@1.2.2
+375 silly idealTree ├── bluebird@3.7.0
+375 silly idealTree ├── boolbase@1.0.0
+375 silly idealTree ├── boom@2.10.1
+375 silly idealTree ├── brace-expansion@1.1.11
+375 silly idealTree ├── buffer-alloc-unsafe@1.1.0
+375 silly idealTree ├── buffer-alloc@1.2.0
+375 silly idealTree ├── buffer-crc32@0.2.13
+375 silly idealTree ├── buffer-fill@1.0.0
+375 silly idealTree ├── buffer@5.4.3
+375 silly idealTree ├── caseless@0.12.0
+375 silly idealTree ├─┬ cheerio@0.19.0
+375 silly idealTree │ └── lodash@3.10.1
+375 silly idealTree ├── co@4.6.0
+375 silly idealTree ├── colors@1.4.0
+375 silly idealTree ├── combined-stream@1.0.8
+375 silly idealTree ├── commander@2.8.1
+375 silly idealTree ├── concat-map@0.0.1
+375 silly idealTree ├── core-util-is@1.0.2
+375 silly idealTree ├── cryptiles@2.0.5
+375 silly idealTree ├── css-select@1.0.0
+375 silly idealTree ├── css-what@1.0.0
+375 silly idealTree ├── cycle@1.0.3
+375 silly idealTree ├── dashdash@1.14.1
+375 silly idealTree ├─┬ debug@2.6.9
+375 silly idealTree │ └── ms@2.0.0
+375 silly idealTree ├── decompress-tar@4.1.1
+375 silly idealTree ├─┬ decompress-tarbz2@4.1.1
+375 silly idealTree │ └── file-type@6.2.0
+375 silly idealTree ├── decompress-targz@4.1.1
+375 silly idealTree ├─┬ decompress-tarxz@2.1.1
+375 silly idealTree │ └── file-type@3.9.0
+375 silly idealTree ├─┬ decompress-unzip@4.0.1
+375 silly idealTree │ └── file-type@3.9.0
+375 silly idealTree ├── decompress@4.2.0
+375 silly idealTree ├── deep-equal@0.2.2
+375 silly idealTree ├── define-properties@1.1.3
+375 silly idealTree ├── delayed-stream@1.0.0
+375 silly idealTree ├── discloud-status@0.1.6
+375 silly idealTree ├─┬ discord.js-musicbot-addon@13.9.1
+375 silly idealTree │ ├─┬ m3u8stream@0.6.5
+375 silly idealTree │ │ └── miniget@1.7.2
+375 silly idealTree │ └── ytdl-core@1.0.9
+375 silly idealTree ├─┬ discord.js@11.6.4
+375 silly idealTree │ └── snekfetch@3.6.4
+375 silly idealTree ├── dom-serializer@0.1.1
+375 silly idealTree ├── domelementtype@1.3.1
+375 silly idealTree ├── domhandler@2.4.2
+375 silly idealTree ├── domutils@1.4.3
+375 silly idealTree ├── ecc-jsbn@0.1.2
+375 silly idealTree ├── end-of-stream@1.4.4
+375 silly idealTree ├── entities@1.1.2
+375 silly idealTree ├── es-abstract@1.17.7
+375 silly idealTree ├── es-to-primitive@1.2.1
+375 silly idealTree ├── extend@3.0.2
+375 silly idealTree ├── extsprintf@1.3.0
+375 silly idealTree ├── eyes@0.1.8
+375 silly idealTree ├── fast-deep-equal@2.0.1
+375 silly idealTree ├── fast-json-stable-stringify@2.0.0
+375 silly idealTree ├── fd-slicer@1.1.0
+375 silly idealTree ├── ffmpeg-binaries@4.0.0
+375 silly idealTree ├── file-type@5.2.0
+375 silly idealTree ├─┬ follow-redirects@1.5.10
+375 silly idealTree │ ├── debug@3.1.0
+375 silly idealTree │ └── ms@2.0.0
+375 silly idealTree ├── forever-agent@0.6.1
+375 silly idealTree ├── form-data@2.3.3
+375 silly idealTree ├── fs-constants@1.0.0
+375 silly idealTree ├── fs.realpath@1.0.0
+375 silly idealTree ├── fs@0.0.1-security
+375 silly idealTree ├── function-bind@1.1.1
+375 silly idealTree ├── get-stream@2.3.1
+375 silly idealTree ├── get-youtube-id@1.0.1
+375 silly idealTree ├── getpass@0.1.7
+375 silly idealTree ├── glob@7.1.4
+375 silly idealTree ├── graceful-fs@4.2.2
+375 silly idealTree ├── graceful-readlink@1.0.1
+375 silly idealTree ├── har-schema@2.0.0
+375 silly idealTree ├── har-validator@5.1.3
+375 silly idealTree ├── has-symbols@1.0.1
+375 silly idealTree ├── has@1.0.3
+375 silly idealTree ├── hawk@3.1.3
+375 silly idealTree ├── hoek@2.16.3
+375 silly idealTree ├── html-entities@1.2.1
+375 silly idealTree ├─┬ htmlparser2@3.8.3
+375 silly idealTree │ ├── domhandler@2.3.0
+375 silly idealTree │ ├── domutils@1.5.1
+375 silly idealTree │ ├── entities@1.0.0
+375 silly idealTree │ ├── isarray@0.0.1
+375 silly idealTree │ ├── readable-stream@1.1.14
+375 silly idealTree │ └── string_decoder@0.10.31
+375 silly idealTree ├── http-signature@1.2.0
+375 silly idealTree ├── i@0.3.6
+375 silly idealTree ├── ieee754@1.1.13
+375 silly idealTree ├── inflight@1.0.6
+375 silly idealTree ├── inherits@2.0.4
+375 silly idealTree ├── is-callable@1.2.2
+375 silly idealTree ├── is-date-object@1.0.2
+375 silly idealTree ├── is-natural-number@4.0.1
+375 silly idealTree ├── is-negative-zero@2.0.0
+375 silly idealTree ├── is-promise@2.1.0
+375 silly idealTree ├── is-regex@1.1.1
+375 silly idealTree ├── is-stream@1.1.0
+375 silly idealTree ├── is-symbol@1.0.3
+375 silly idealTree ├── is-typedarray@1.0.0
+375 silly idealTree ├── isarray@1.0.0
+375 silly idealTree ├── isgd@1.1.3
+375 silly idealTree ├── iso8601-duration@1.2.0
+375 silly idealTree ├── isstream@0.1.2
+375 silly idealTree ├── js2xmlparser@4.0.1
+375 silly idealTree ├── jsbn@0.1.1
+375 silly idealTree ├── json-schema-traverse@0.4.1
+375 silly idealTree ├── json-schema@0.2.3
+375 silly idealTree ├── json-stable-stringify@1.0.1
+375 silly idealTree ├── json-stringify-safe@5.0.1
+375 silly idealTree ├── jsonify@0.0.0
+375 silly idealTree ├── jsprim@1.4.1
+375 silly idealTree ├── lodash.isfunction@3.0.9
+375 silly idealTree ├── lodash@4.17.15
+375 silly idealTree ├── long@4.0.0
+375 silly idealTree ├─┬ lowdb@1.0.0
+375 silly idealTree │ └── pify@3.0.0
+375 silly idealTree ├─┬ lzma-native@3.0.8
+375 silly idealTree │ ├── abbrev@1.1.1
+375 silly idealTree │ ├── ajv@4.11.8
+375 silly idealTree │ ├── ansi-regex@2.1.1
+375 silly idealTree │ ├── aproba@1.2.0
+375 silly idealTree │ ├── are-we-there-yet@1.1.4
+375 silly idealTree │ ├── asn1@0.2.3
+375 silly idealTree │ ├── assert-plus@0.2.0
+375 silly idealTree │ ├── asynckit@0.4.0
+375 silly idealTree │ ├── aws-sign2@0.6.0
+375 silly idealTree │ ├── aws4@1.7.0
+375 silly idealTree │ ├── balanced-match@1.0.0
+375 silly idealTree │ ├── bcrypt-pbkdf@1.0.1
+375 silly idealTree │ ├── block-stream@0.0.9
+375 silly idealTree │ ├── boom@2.10.1
+375 silly idealTree │ ├── brace-expansion@1.1.11
+375 silly idealTree │ ├── caseless@0.12.0
+375 silly idealTree │ ├── co@4.6.0
+375 silly idealTree │ ├── code-point-at@1.1.0
+375 silly idealTree │ ├── combined-stream@1.0.6
+375 silly idealTree │ ├── concat-map@0.0.1
+375 silly idealTree │ ├── console-control-strings@1.1.0
+375 silly idealTree │ ├── core-util-is@1.0.2
+375 silly idealTree │ ├── cryptiles@2.0.5
+375 silly idealTree │ ├─┬ dashdash@1.14.1
+375 silly idealTree │ │ └── assert-plus@1.0.0
+375 silly idealTree │ ├── debug@2.6.9
+375 silly idealTree │ ├── deep-extend@0.5.1
+375 silly idealTree │ ├── delayed-stream@1.0.0
+375 silly idealTree │ ├── delegates@1.0.0
+375 silly idealTree │ ├── detect-libc@1.0.3
+375 silly idealTree │ ├── ecc-jsbn@0.1.1
+375 silly idealTree │ ├── extend@3.0.1
+375 silly idealTree │ ├── extsprintf@1.3.0
+375 silly idealTree │ ├── forever-agent@0.6.1
+375 silly idealTree │ ├── form-data@2.1.4
+375 silly idealTree │ ├── fs.realpath@1.0.0
+375 silly idealTree │ ├── fstream-ignore@1.0.5
+375 silly idealTree │ ├── fstream@1.0.11
+375 silly idealTree │ ├── gauge@2.7.4
+375 silly idealTree │ ├─┬ getpass@0.1.7
+375 silly idealTree │ │ └── assert-plus@1.0.0
+375 silly idealTree │ ├── glob@7.1.2
+375 silly idealTree │ ├── graceful-fs@4.1.11
+375 silly idealTree │ ├── har-schema@1.0.5
+375 silly idealTree │ ├── har-validator@4.2.1
+375 silly idealTree │ ├── has-unicode@2.0.1
+375 silly idealTree │ ├── hawk@3.1.3
+375 silly idealTree │ ├── hoek@2.16.3
+375 silly idealTree │ ├── http-signature@1.1.1
+375 silly idealTree │ ├── inflight@1.0.6
+375 silly idealTree │ ├── inherits@2.0.3
+375 silly idealTree │ ├── ini@1.3.5
+375 silly idealTree │ ├── is-fullwidth-code-point@1.0.0
+375 silly idealTree │ ├── is-typedarray@1.0.0
+375 silly idealTree │ ├── isarray@1.0.0
+375 silly idealTree │ ├── isstream@0.1.2
+375 silly idealTree │ ├── jsbn@0.1.1
+375 silly idealTree │ ├── json-schema@0.2.3
+375 silly idealTree │ ├── json-stable-stringify@1.0.1
+375 silly idealTree │ ├── json-stringify-safe@5.0.1
+375 silly idealTree │ ├── jsonify@0.0.0
+375 silly idealTree │ ├─┬ jsprim@1.4.1
+375 silly idealTree │ │ └── assert-plus@1.0.0
+375 silly idealTree │ ├── mime-db@1.33.0
+375 silly idealTree │ ├── mime-types@2.1.18
+375 silly idealTree │ ├── minimatch@3.0.4
+375 silly idealTree │ ├── minimist@0.0.8
+375 silly idealTree │ ├── mkdirp@0.5.1
+375 silly idealTree │ ├── ms@2.0.0
+375 silly idealTree │ ├── node-pre-gyp@0.6.39
+375 silly idealTree │ ├── nopt@4.0.1
+375 silly idealTree │ ├── npmlog@4.1.2
+375 silly idealTree │ ├── number-is-nan@1.0.1
+375 silly idealTree │ ├── oauth-sign@0.8.2
+375 silly idealTree │ ├── object-assign@4.1.1
+375 silly idealTree │ ├── once@1.4.0
+375 silly idealTree │ ├── os-homedir@1.0.2
+375 silly idealTree │ ├── os-tmpdir@1.0.2
+375 silly idealTree │ ├── osenv@0.1.5
+375 silly idealTree │ ├── path-is-absolute@1.0.1
+375 silly idealTree │ ├── performance-now@0.2.0
+375 silly idealTree │ ├── process-nextick-args@2.0.0
+375 silly idealTree │ ├── punycode@1.4.1
+375 silly idealTree │ ├── qs@6.4.0
+375 silly idealTree │ ├─┬ rc@1.2.7
+375 silly idealTree │ │ └── minimist@1.2.0
+375 silly idealTree │ ├── readable-stream@2.3.6
+375 silly idealTree │ ├── request@2.81.0
+375 silly idealTree │ ├── rimraf@2.6.2
+375 silly idealTree │ ├── safe-buffer@5.1.2
+375 silly idealTree │ ├── semver@5.5.0
+375 silly idealTree │ ├── set-blocking@2.0.0
+375 silly idealTree │ ├── signal-exit@3.0.2
+375 silly idealTree │ ├── sntp@1.0.9
+375 silly idealTree │ ├─┬ sshpk@1.14.1
+375 silly idealTree │ │ └── assert-plus@1.0.0
+375 silly idealTree │ ├── string_decoder@1.1.1
+375 silly idealTree │ ├── string-width@1.0.2
+375 silly idealTree │ ├── stringstream@0.0.5
+375 silly idealTree │ ├── strip-ansi@3.0.1
+375 silly idealTree │ ├── strip-json-comments@2.0.1
+375 silly idealTree │ ├── tar-pack@3.4.1
+375 silly idealTree │ ├── tar@2.2.1
+375 silly idealTree │ ├── tough-cookie@2.3.4
+375 silly idealTree │ ├── tunnel-agent@0.6.0
+375 silly idealTree │ ├── tweetnacl@0.14.5
+375 silly idealTree │ ├── uid-number@0.0.6
+375 silly idealTree │ ├── util-deprecate@1.0.2
+375 silly idealTree │ ├── uuid@3.2.1
+375 silly idealTree │ ├─┬ verror@1.10.0
+375 silly idealTree │ │ └── assert-plus@1.0.0
+375 silly idealTree │ ├── wide-align@1.1.2
+375 silly idealTree │ └── wrappy@1.0.2
+375 silly idealTree ├── m3u8stream@0.6.2
+375 silly idealTree ├─┬ make-dir@1.3.0
+375 silly idealTree │ └── pify@3.0.0
+375 silly idealTree ├─┬ mal-scraper@2.11.1
+375 silly idealTree │ ├── cheerio@1.0.0-rc.3
+375 silly idealTree │ ├── css-select@1.2.0
+375 silly idealTree │ ├── css-what@2.1.3
+375 silly idealTree │ ├── domutils@1.5.1
+375 silly idealTree │ ├── htmlparser2@3.10.1
+375 silly idealTree │ └── readable-stream@3.6.0
+375 silly idealTree ├── match-sorter@4.2.1
+375 silly idealTree ├── mime-db@1.40.0
+375 silly idealTree ├── mime-types@2.1.24
+375 silly idealTree ├── miniget@1.6.0
+375 silly idealTree ├── minimatch@3.0.4
+375 silly idealTree ├── minimist@0.0.8
+375 silly idealTree ├── mkdirp@0.5.1
+375 silly idealTree ├── moment@2.29.1
+375 silly idealTree ├── ms@2.1.2
+375 silly idealTree ├── mute-stream@0.0.8
+375 silly idealTree ├── nan@2.14.0
+375 silly idealTree ├── ncp@1.0.1
+375 silly idealTree ├── node-fetch@2.6.0
+375 silly idealTree ├── nth-check@1.0.2
+375 silly idealTree ├── oauth-sign@0.9.0
+375 silly idealTree ├── object-assign@4.1.1
+375 silly idealTree ├── object-inspect@1.8.0
+375 silly idealTree ├── object-keys@1.1.1
+375 silly idealTree ├─┬ object.assign@4.1.1
+375 silly idealTree │ └── es-abstract@1.18.0-next.1
+375 silly idealTree ├── once@1.4.0
+375 silly idealTree ├── opusscript@0.0.7
+375 silly idealTree ├── parse5@3.0.3
+375 silly idealTree ├── path-is-absolute@1.0.1
+375 silly idealTree ├── pend@1.2.0
+375 silly idealTree ├── performance-now@2.1.0
+375 silly idealTree ├── pify@2.3.0
+375 silly idealTree ├── pinkie-promise@2.0.1
+375 silly idealTree ├── pinkie@2.0.4
+375 silly idealTree ├── pkginfo@0.4.1
+375 silly idealTree ├── prism-media@0.0.4
+375 silly idealTree ├── process-nextick-args@2.0.1
+375 silly idealTree ├── prompt@1.0.0
+375 silly idealTree ├── psl@1.4.0
+375 silly idealTree ├── punycode@2.1.1
+375 silly idealTree ├── qs@6.5.2
+375 silly idealTree ├── read@1.0.7
+375 silly idealTree ├─┬ readable-stream@2.3.6
+375 silly idealTree │ ├── safe-buffer@5.1.2
+375 silly idealTree │ └── string_decoder@1.1.1
+375 silly idealTree ├── regenerator-runtime@0.13.7
+375 silly idealTree ├── remove-accents@0.4.2
+375 silly idealTree ├── request-promise-core@1.1.2
+375 silly idealTree ├── request-promise@4.2.4
+375 silly idealTree ├── request@2.88.0
+375 silly idealTree ├── revalidator@0.1.8
+375 silly idealTree ├── rimraf@2.7.1
+375 silly idealTree ├── safe-buffer@5.2.0
+375 silly idealTree ├── safer-buffer@2.1.2
+375 silly idealTree ├── sax@1.2.4
+375 silly idealTree ├── seek-bzip@1.0.5
+375 silly idealTree ├── simple-youtube-api@5.2.1
+375 silly idealTree ├── snekfetch@4.0.4
+375 silly idealTree ├── sntp@1.0.9
+375 silly idealTree ├─┬ sshpk@1.16.1
+375 silly idealTree │ └── tweetnacl@0.14.5
+375 silly idealTree ├── stack-trace@0.0.10
+375 silly idealTree ├── stealthy-require@1.1.1
+375 silly idealTree ├── steno@0.4.4
+375 silly idealTree ├── string_decoder@1.3.0
+375 silly idealTree ├── string.prototype.trimend@1.0.1
+375 silly idealTree ├── string.prototype.trimstart@1.0.1
+375 silly idealTree ├── stringstream@0.0.6
+375 silly idealTree ├── strip-dirs@2.1.0
+375 silly idealTree ├── tar-stream@1.6.2
+375 silly idealTree ├── through@2.3.8
+375 silly idealTree ├── to-buffer@1.1.1
+375 silly idealTree ├─┬ tough-cookie@2.4.3
+375 silly idealTree │ └── punycode@1.4.1
+375 silly idealTree ├── tunnel-agent@0.6.0
+375 silly idealTree ├── tweetnacl@1.0.3
+375 silly idealTree ├── unbzip2-stream@1.3.3
+375 silly idealTree ├── uri-js@4.2.2
+375 silly idealTree ├── util-deprecate@1.0.2
+375 silly idealTree ├── utile@0.3.0
+375 silly idealTree ├── uuid@3.3.3
+375 silly idealTree ├── verror@1.10.0
+375 silly idealTree ├─┬ winston@2.1.1
+375 silly idealTree │ ├── async@1.0.0
+375 silly idealTree │ ├── colors@1.0.3
+375 silly idealTree │ └── pkginfo@0.3.1
+375 silly idealTree ├── wrappy@1.0.2
+375 silly idealTree ├── ws@6.2.1
+375 silly idealTree ├── xml2js@0.4.23
+375 silly idealTree ├── xmlbuilder@11.0.1
+375 silly idealTree ├── xmlcreate@2.0.3
+375 silly idealTree ├── xtend@4.0.2
+375 silly idealTree ├── yauzl@2.10.0
+375 silly idealTree ├─┬ youtube-info@1.3.2
+375 silly idealTree │ ├── ajv@4.11.8
+375 silly idealTree │ ├── assert-plus@0.2.0
+375 silly idealTree │ ├── aws-sign2@0.6.0
+375 silly idealTree │ ├── form-data@2.1.4
+375 silly idealTree │ ├── har-schema@1.0.5
+375 silly idealTree │ ├── har-validator@4.2.1
+375 silly idealTree │ ├── http-signature@1.1.1
+375 silly idealTree │ ├── oauth-sign@0.8.2
+375 silly idealTree │ ├── performance-now@0.2.0
+375 silly idealTree │ ├── punycode@1.4.1
+375 silly idealTree │ ├── qs@6.4.0
+375 silly idealTree │ ├── request@2.81.0
+375 silly idealTree │ └── tough-cookie@2.3.4
+375 silly idealTree ├── youtube-node@1.3.3
+375 silly idealTree ├─┬ ytdl-core-discord@1.2.3
+375 silly idealTree │ ├── html-entities@1.3.1
+375 silly idealTree │ ├─┬ m3u8stream@0.7.1
+375 silly idealTree │ │ └── miniget@1.7.2
+375 silly idealTree │ ├── miniget@2.0.1
+375 silly idealTree │ ├── prism-media@1.2.2
+375 silly idealTree │ └── ytdl-core@3.3.0
+375 silly idealTree ├── ytdl-core@0.29.7
+375 silly idealTree ├── ytpl@0.1.22
+375 silly idealTree └── ytsearcher@1.2.3
+376 silly generateActionsToTake Starting
+377 silly install generateActionsToTake
+378 silly generateActionsToTake Finishing
+379 silly diffTrees action count 13
+380 silly diffTrees add string_decoder@1.1.1
+381 silly diffTrees add ffmpeg-binaries@4.0.0
+382 silly diffTrees update fs@0.0.1-security
+383 silly diffTrees update get-youtube-id@1.0.1
+384 silly diffTrees update isgd@1.1.3
+385 silly diffTrees update lowdb@1.0.0
+386 silly diffTrees update ms@2.1.2
+387 silly diffTrees update opusscript@0.0.7
+388 silly diffTrees update simple-youtube-api@5.2.1
+389 silly diffTrees update snekfetch@4.0.4
+390 silly diffTrees update youtube-info@1.3.2
+391 silly diffTrees update youtube-node@1.3.3
+392 silly diffTrees update ytdl-core@0.29.7
+393 silly decomposeActions action count 104
+394 silly decomposeActions fetch string_decoder@1.1.1
+395 silly decomposeActions extract string_decoder@1.1.1
+396 silly decomposeActions test string_decoder@1.1.1
+397 silly decomposeActions preinstall string_decoder@1.1.1
+398 silly decomposeActions build string_decoder@1.1.1
+399 silly decomposeActions install string_decoder@1.1.1
+400 silly decomposeActions postinstall string_decoder@1.1.1
+401 silly decomposeActions finalize string_decoder@1.1.1
+402 silly decomposeActions fetch ffmpeg-binaries@4.0.0
+403 silly decomposeActions extract ffmpeg-binaries@4.0.0
+404 silly decomposeActions test ffmpeg-binaries@4.0.0
+405 silly decomposeActions preinstall ffmpeg-binaries@4.0.0
+406 silly decomposeActions build ffmpeg-binaries@4.0.0
+407 silly decomposeActions install ffmpeg-binaries@4.0.0
+408 silly decomposeActions postinstall ffmpeg-binaries@4.0.0
+409 silly decomposeActions finalize ffmpeg-binaries@4.0.0
+410 silly decomposeActions fetch fs@0.0.1-security
+411 silly decomposeActions extract fs@0.0.1-security
+412 silly decomposeActions test fs@0.0.1-security
+413 silly decomposeActions preinstall fs@0.0.1-security
+414 silly decomposeActions build fs@0.0.1-security
+415 silly decomposeActions install fs@0.0.1-security
+416 silly decomposeActions postinstall fs@0.0.1-security
+417 silly decomposeActions finalize fs@0.0.1-security
+418 silly decomposeActions fetch get-youtube-id@1.0.1
+419 silly decomposeActions extract get-youtube-id@1.0.1
+420 silly decomposeActions test get-youtube-id@1.0.1
+421 silly decomposeActions preinstall get-youtube-id@1.0.1
+422 silly decomposeActions build get-youtube-id@1.0.1
+423 silly decomposeActions install get-youtube-id@1.0.1
+424 silly decomposeActions postinstall get-youtube-id@1.0.1
+425 silly decomposeActions finalize get-youtube-id@1.0.1
+426 silly decomposeActions fetch isgd@1.1.3
+427 silly decomposeActions extract isgd@1.1.3
+428 silly decomposeActions test isgd@1.1.3
+429 silly decomposeActions preinstall isgd@1.1.3
+430 silly decomposeActions build isgd@1.1.3
+431 silly decomposeActions install isgd@1.1.3
+432 silly decomposeActions postinstall isgd@1.1.3
+433 silly decomposeActions finalize isgd@1.1.3
+434 silly decomposeActions fetch lowdb@1.0.0
+435 silly decomposeActions extract lowdb@1.0.0
+436 silly decomposeActions test lowdb@1.0.0
+437 silly decomposeActions preinstall lowdb@1.0.0
+438 silly decomposeActions build lowdb@1.0.0
+439 silly decomposeActions install lowdb@1.0.0
+440 silly decomposeActions postinstall lowdb@1.0.0
+441 silly decomposeActions finalize lowdb@1.0.0
+442 silly decomposeActions fetch ms@2.1.2
+443 silly decomposeActions extract ms@2.1.2
+444 silly decomposeActions test ms@2.1.2
+445 silly decomposeActions preinstall ms@2.1.2
+446 silly decomposeActions build ms@2.1.2
+447 silly decomposeActions install ms@2.1.2
+448 silly decomposeActions postinstall ms@2.1.2
+449 silly decomposeActions finalize ms@2.1.2
+450 silly decomposeActions fetch opusscript@0.0.7
+451 silly decomposeActions extract opusscript@0.0.7
+452 silly decomposeActions test opusscript@0.0.7
+453 silly decomposeActions preinstall opusscript@0.0.7
+454 silly decomposeActions build opusscript@0.0.7
+455 silly decomposeActions install opusscript@0.0.7
+456 silly decomposeActions postinstall opusscript@0.0.7
+457 silly decomposeActions finalize opusscript@0.0.7
+458 silly decomposeActions fetch simple-youtube-api@5.2.1
+459 silly decomposeActions extract simple-youtube-api@5.2.1
+460 silly decomposeActions test simple-youtube-api@5.2.1
+461 silly decomposeActions preinstall simple-youtube-api@5.2.1
+462 silly decomposeActions build simple-youtube-api@5.2.1
+463 silly decomposeActions install simple-youtube-api@5.2.1
+464 silly decomposeActions postinstall simple-youtube-api@5.2.1
+465 silly decomposeActions finalize simple-youtube-api@5.2.1
+466 silly decomposeActions fetch snekfetch@4.0.4
+467 silly decomposeActions extract snekfetch@4.0.4
+468 silly decomposeActions test snekfetch@4.0.4
+469 silly decomposeActions preinstall snekfetch@4.0.4
+470 silly decomposeActions build snekfetch@4.0.4
+471 silly decomposeActions install snekfetch@4.0.4
+472 silly decomposeActions postinstall snekfetch@4.0.4
+473 silly decomposeActions finalize snekfetch@4.0.4
+474 silly decomposeActions fetch youtube-info@1.3.2
+475 silly decomposeActions extract youtube-info@1.3.2
+476 silly decomposeActions test youtube-info@1.3.2
+477 silly decomposeActions preinstall youtube-info@1.3.2
+478 silly decomposeActions build youtube-info@1.3.2
+479 silly decomposeActions install youtube-info@1.3.2
+480 silly decomposeActions postinstall youtube-info@1.3.2
+481 silly decomposeActions finalize youtube-info@1.3.2
+482 silly decomposeActions fetch youtube-node@1.3.3
+483 silly decomposeActions extract youtube-node@1.3.3
+484 silly decomposeActions test youtube-node@1.3.3
+485 silly decomposeActions preinstall youtube-node@1.3.3
+486 silly decomposeActions build youtube-node@1.3.3
+487 silly decomposeActions install youtube-node@1.3.3
+488 silly decomposeActions postinstall youtube-node@1.3.3
+489 silly decomposeActions finalize youtube-node@1.3.3
+490 silly decomposeActions fetch ytdl-core@0.29.7
+491 silly decomposeActions extract ytdl-core@0.29.7
+492 silly decomposeActions test ytdl-core@0.29.7
+493 silly decomposeActions preinstall ytdl-core@0.29.7
+494 silly decomposeActions build ytdl-core@0.29.7
+495 silly decomposeActions install ytdl-core@0.29.7
+496 silly decomposeActions postinstall ytdl-core@0.29.7
+497 silly decomposeActions finalize ytdl-core@0.29.7
+498 silly executeActions Starting
+499 silly install executeActions
+500 silly doSerial global-install 0
+501 silly doParallel fetch 13
+502 verbose lock using /home/ceibal/.npm/_locks/staging-5e35ffebd28f548b.lock for /home/ceibal/Escritorio/botz/node_modules/.staging
+503 silly doParallel extract 13
+504 silly extract string_decoder@1.1.1
+505 silly extract ffmpeg-binaries@4.0.0
+506 silly extract fs@0.0.1-security
+507 silly extract get-youtube-id@1.0.1
+508 silly extract isgd@1.1.3
+509 silly extract lowdb@1.0.0
+510 silly extract ms@2.1.2
+511 silly extract opusscript@0.0.7
+512 silly extract simple-youtube-api@5.2.1
+513 silly extract snekfetch@4.0.4
+514 silly extract youtube-info@1.3.2
+515 silly extract youtube-node@1.3.3
+516 silly extract ytdl-core@0.29.7
+517 silly addNamed lowdb@1.0.0
+518 verbose addNamed "1.0.0" is a plain semver version for lowdb
+519 silly mapToRegistry name lowdb
+520 silly mapToRegistry using default registry
+521 silly mapToRegistry registry https://registry.npmjs.org/
+522 silly mapToRegistry uri https://registry.npmjs.org/lowdb
+523 verbose addNameVersion registry:https://registry.npmjs.org/lowdb not in flight; fetching
+524 silly addNamed opusscript@0.0.7
+525 verbose addNamed "0.0.7" is a plain semver version for opusscript
+526 silly mapToRegistry name opusscript
+527 silly mapToRegistry using default registry
+528 silly mapToRegistry registry https://registry.npmjs.org/
+529 silly mapToRegistry uri https://registry.npmjs.org/opusscript
+530 verbose addNameVersion registry:https://registry.npmjs.org/opusscript not in flight; fetching
+531 silly addNamed snekfetch@4.0.4
+532 verbose addNamed "4.0.4" is a plain semver version for snekfetch
+533 silly mapToRegistry name snekfetch
+534 silly mapToRegistry using default registry
+535 silly mapToRegistry registry https://registry.npmjs.org/
+536 silly mapToRegistry uri https://registry.npmjs.org/snekfetch
+537 verbose addNameVersion registry:https://registry.npmjs.org/snekfetch not in flight; fetching
+538 silly addNamed youtube-node@1.3.3
+539 verbose addNamed "1.3.3" is a plain semver version for youtube-node
+540 silly mapToRegistry name youtube-node
+541 silly mapToRegistry using default registry
+542 silly mapToRegistry registry https://registry.npmjs.org/
+543 silly mapToRegistry uri https://registry.npmjs.org/youtube-node
+544 verbose addNameVersion registry:https://registry.npmjs.org/youtube-node not in flight; fetching
+545 silly addNamed ytdl-core@0.29.7
+546 verbose addNamed "0.29.7" is a plain semver version for ytdl-core
+547 silly mapToRegistry name ytdl-core
+548 silly mapToRegistry using default registry
+549 silly mapToRegistry registry https://registry.npmjs.org/
+550 silly mapToRegistry uri https://registry.npmjs.org/ytdl-core
+551 verbose addNameVersion registry:https://registry.npmjs.org/ytdl-core not in flight; fetching
+552 verbose unbuild node_modules/.staging/string_decoder-8273ed95
+553 verbose unbuild node_modules/.staging/ffmpeg-binaries-2e2fa20c
+554 verbose unbuild node_modules/.staging/fs-c73af4d6
+555 verbose unbuild node_modules/.staging/get-youtube-id-866b4007
+556 verbose unbuild node_modules/.staging/isgd-0221b779
+557 verbose unbuild node_modules/.staging/ms-53acf312
+558 verbose unbuild node_modules/.staging/youtube-info-af1cbe82
+559 silly gentlyRm /home/ceibal/Escritorio/botz/node_modules/.staging/string_decoder-8273ed95 is being purged from base /home/ceibal/Escritorio/botz
+560 verbose gentlyRm don't care about contents; nuking /home/ceibal/Escritorio/botz/node_modules/.staging/string_decoder-8273ed95
+561 silly gentlyRm /home/ceibal/Escritorio/botz/node_modules/.staging/ffmpeg-binaries-2e2fa20c is being purged from base /home/ceibal/Escritorio/botz
+562 verbose gentlyRm don't care about contents; nuking /home/ceibal/Escritorio/botz/node_modules/.staging/ffmpeg-binaries-2e2fa20c
+563 silly gentlyRm /home/ceibal/Escritorio/botz/node_modules/.staging/fs-c73af4d6 is being purged from base /home/ceibal/Escritorio/botz
+564 verbose gentlyRm don't care about contents; nuking /home/ceibal/Escritorio/botz/node_modules/.staging/fs-c73af4d6
+565 verbose unbuild node_modules/.staging/simple-youtube-api-2ac4bb54
+566 silly gentlyRm /home/ceibal/Escritorio/botz/node_modules/.staging/get-youtube-id-866b4007 is being purged from base /home/ceibal/Escritorio/botz
+567 verbose gentlyRm don't care about contents; nuking /home/ceibal/Escritorio/botz/node_modules/.staging/get-youtube-id-866b4007
+568 silly gentlyRm /home/ceibal/Escritorio/botz/node_modules/.staging/isgd-0221b779 is being purged from base /home/ceibal/Escritorio/botz
+569 verbose gentlyRm don't care about contents; nuking /home/ceibal/Escritorio/botz/node_modules/.staging/isgd-0221b779
+570 silly gentlyRm /home/ceibal/Escritorio/botz/node_modules/.staging/ms-53acf312 is being purged from base /home/ceibal/Escritorio/botz
+571 verbose gentlyRm don't care about contents; nuking /home/ceibal/Escritorio/botz/node_modules/.staging/ms-53acf312
+572 verbose get https://registry.npmjs.org/opusscript not expired, no request
+573 verbose get https://registry.npmjs.org/lowdb not expired, no request
+574 verbose get https://registry.npmjs.org/snekfetch not expired, no request
+575 warn deprecated snekfetch@4.0.4: use node-fetch instead
+576 verbose tar unpack /home/ceibal/.npm/string_decoder/1.1.1/package.tgz
+577 verbose tar unpacking to /home/ceibal/Escritorio/botz/node_modules/.staging/string_decoder-8273ed95
+578 silly gentlyRm /home/ceibal/Escritorio/botz/node_modules/.staging/string_decoder-8273ed95 is being purged
+579 verbose gentlyRm don't care about contents; nuking /home/ceibal/Escritorio/botz/node_modules/.staging/string_decoder-8273ed95
+580 verbose tar unpack /home/ceibal/.npm/ffmpeg-binaries/4.0.0/package.tgz
+581 verbose tar unpacking to /home/ceibal/Escritorio/botz/node_modules/.staging/ffmpeg-binaries-2e2fa20c
+582 silly gentlyRm /home/ceibal/Escritorio/botz/node_modules/.staging/ffmpeg-binaries-2e2fa20c is being purged
+583 verbose gentlyRm don't care about contents; nuking /home/ceibal/Escritorio/botz/node_modules/.staging/ffmpeg-binaries-2e2fa20c
+584 silly gentlyRm /home/ceibal/Escritorio/botz/node_modules/.staging/youtube-info-af1cbe82 is being purged from base /home/ceibal/Escritorio/botz
+585 verbose gentlyRm don't care about contents; nuking /home/ceibal/Escritorio/botz/node_modules/.staging/youtube-info-af1cbe82
+586 verbose tar unpack /home/ceibal/.npm/fs/0.0.1-security/package.tgz
+587 verbose tar unpacking to /home/ceibal/Escritorio/botz/node_modules/.staging/fs-c73af4d6
+588 silly gentlyRm /home/ceibal/Escritorio/botz/node_modules/.staging/fs-c73af4d6 is being purged
+589 verbose gentlyRm don't care about contents; nuking /home/ceibal/Escritorio/botz/node_modules/.staging/fs-c73af4d6
+590 verbose tar unpack /home/ceibal/.npm/get-youtube-id/1.0.1/package.tgz
+591 verbose tar unpacking to /home/ceibal/Escritorio/botz/node_modules/.staging/get-youtube-id-866b4007
+592 silly gentlyRm /home/ceibal/Escritorio/botz/node_modules/.staging/get-youtube-id-866b4007 is being purged
+593 verbose gentlyRm don't care about contents; nuking /home/ceibal/Escritorio/botz/node_modules/.staging/get-youtube-id-866b4007
+594 verbose tar unpack /home/ceibal/.npm/isgd/1.1.3/package.tgz
+595 verbose tar unpacking to /home/ceibal/Escritorio/botz/node_modules/.staging/isgd-0221b779
+596 silly gentlyRm /home/ceibal/Escritorio/botz/node_modules/.staging/isgd-0221b779 is being purged
+597 verbose gentlyRm don't care about contents; nuking /home/ceibal/Escritorio/botz/node_modules/.staging/isgd-0221b779
+598 verbose tar unpack /home/ceibal/.npm/ms/2.1.2/package.tgz
+599 verbose tar unpacking to /home/ceibal/Escritorio/botz/node_modules/.staging/ms-53acf312
+600 silly gentlyRm /home/ceibal/Escritorio/botz/node_modules/.staging/ms-53acf312 is being purged
+601 verbose gentlyRm don't care about contents; nuking /home/ceibal/Escritorio/botz/node_modules/.staging/ms-53acf312
+602 silly gunzTarPerm modes [ '775', '664' ]
+603 verbose get https://registry.npmjs.org/youtube-node not expired, no request
+604 silly gunzTarPerm modes [ '775', '664' ]
+605 verbose tar unpack /home/ceibal/.npm/youtube-info/1.3.2/package.tgz
+606 verbose tar unpacking to /home/ceibal/Escritorio/botz/node_modules/.staging/youtube-info-af1cbe82
+607 silly gentlyRm /home/ceibal/Escritorio/botz/node_modules/.staging/youtube-info-af1cbe82 is being purged
+608 verbose gentlyRm don't care about contents; nuking /home/ceibal/Escritorio/botz/node_modules/.staging/youtube-info-af1cbe82
+609 silly gunzTarPerm modes [ '775', '664' ]
+610 silly gentlyRm /home/ceibal/Escritorio/botz/node_modules/.staging/simple-youtube-api-2ac4bb54 is being purged from base /home/ceibal/Escritorio/botz
+611 verbose gentlyRm don't care about contents; nuking /home/ceibal/Escritorio/botz/node_modules/.staging/simple-youtube-api-2ac4bb54
+612 silly gunzTarPerm modes [ '775', '664' ]
+613 silly gunzTarPerm modes [ '775', '664' ]
+614 verbose get https://registry.npmjs.org/ytdl-core not expired, no request
+615 silly gunzTarPerm modes [ '775', '664' ]
+616 silly gunzTarPerm modes [ '775', '664' ]
+617 verbose tar unpack /home/ceibal/.npm/simple-youtube-api/5.2.1/package.tgz
+618 verbose tar unpacking to /home/ceibal/Escritorio/botz/node_modules/.staging/simple-youtube-api-2ac4bb54
+619 silly gentlyRm /home/ceibal/Escritorio/botz/node_modules/.staging/simple-youtube-api-2ac4bb54 is being purged
+620 verbose gentlyRm don't care about contents; nuking /home/ceibal/Escritorio/botz/node_modules/.staging/simple-youtube-api-2ac4bb54
+621 silly mapToRegistry name opusscript
+622 silly mapToRegistry using default registry
+623 silly mapToRegistry registry https://registry.npmjs.org/
+624 silly mapToRegistry uri https://registry.npmjs.org/opusscript
+625 verbose addRemoteTarball https://registry.npmjs.org/opusscript/-/opusscript-0.0.7.tgz not in flight; adding
+626 verbose addRemoteTarball [ 'https://registry.npmjs.org/opusscript/-/opusscript-0.0.7.tgz',
+626 verbose addRemoteTarball   '7dd7ec55b302d26bf588e6fc3feb090b8c7da856' ]
+627 silly mapToRegistry name lowdb
+628 silly mapToRegistry using default registry
+629 silly mapToRegistry registry https://registry.npmjs.org/
+630 silly mapToRegistry uri https://registry.npmjs.org/lowdb
+631 verbose addRemoteTarball https://registry.npmjs.org/lowdb/-/lowdb-1.0.0.tgz not in flight; adding
+632 verbose addRemoteTarball [ 'https://registry.npmjs.org/lowdb/-/lowdb-1.0.0.tgz',
+632 verbose addRemoteTarball   '5243be6b22786ccce30e50c9a33eac36b20c8064' ]
+633 silly mapToRegistry name snekfetch
+634 silly mapToRegistry using default registry
+635 silly mapToRegistry registry https://registry.npmjs.org/
+636 silly mapToRegistry uri https://registry.npmjs.org/snekfetch
+637 verbose addRemoteTarball https://registry.npmjs.org/snekfetch/-/snekfetch-4.0.4.tgz not in flight; adding
+638 verbose addRemoteTarball [ 'https://registry.npmjs.org/snekfetch/-/snekfetch-4.0.4.tgz',
+638 verbose addRemoteTarball   'e76a03b8476699a1f0c036d6567e386ce5fbde8e' ]
+639 silly gunzTarPerm modes [ '775', '664' ]
+640 silly mapToRegistry name youtube-node
+641 silly mapToRegistry using default registry
+642 silly mapToRegistry registry https://registry.npmjs.org/
+643 silly mapToRegistry uri https://registry.npmjs.org/youtube-node
+644 verbose addRemoteTarball https://registry.npmjs.org/youtube-node/-/youtube-node-1.3.3.tgz not in flight; adding
+645 verbose addRemoteTarball [ 'https://registry.npmjs.org/youtube-node/-/youtube-node-1.3.3.tgz',
+645 verbose addRemoteTarball   'fc4fabf9874252696569c85e8f9f82f41a9a6f92' ]
+646 silly mapToRegistry name ytdl-core
+647 silly mapToRegistry using default registry
+648 silly mapToRegistry registry https://registry.npmjs.org/
+649 silly mapToRegistry uri https://registry.npmjs.org/ytdl-core
+650 verbose addRemoteTarball https://registry.npmjs.org/ytdl-core/-/ytdl-core-0.29.7.tgz not in flight; adding
+651 verbose addRemoteTarball [ 'https://registry.npmjs.org/ytdl-core/-/ytdl-core-0.29.7.tgz',
+651 verbose addRemoteTarball   'e63ce0b086a4543d827499bed22f53fdf4d16af2' ]
+652 silly gunzTarPerm extractEntry package.json
+653 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+654 silly gunzTarPerm extractEntry package.json
+655 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+656 silly gunzTarPerm extractEntry package.json
+657 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+658 silly gunzTarPerm extractEntry package.json
+659 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+660 silly gunzTarPerm extractEntry package.json
+661 silly gunzTarPerm modified mode [ 'package.json', 384, 436 ]
+662 silly gunzTarPerm extractEntry package.json
+663 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+664 silly gunzTarPerm extractEntry package.json
+665 info retry fetch attempt 1 at 09:39:50
+666 info attempt registry request try #1 at 09:39:50
+667 http fetch GET https://registry.npmjs.org/youtube-node/-/youtube-node-1.3.3.tgz
+668 verbose request using bearer token for auth
+669 silly gunzTarPerm extractEntry package.json
+670 silly gunzTarPerm modified mode [ 'package.json', 438, 436 ]
+671 info retry fetch attempt 1 at 09:39:50
+672 info attempt registry request try #1 at 09:39:50
+673 http fetch GET https://registry.npmjs.org/ytdl-core/-/ytdl-core-0.29.7.tgz
+674 verbose request using bearer token for auth
+675 info retry fetch attempt 1 at 09:39:50
+676 info attempt registry request try #1 at 09:39:50
+677 http fetch GET https://registry.npmjs.org/opusscript/-/opusscript-0.0.7.tgz
+678 verbose request using bearer token for auth
+679 silly gunzTarPerm extractEntry .travis.yml
+680 silly gunzTarPerm modified mode [ '.travis.yml', 420, 436 ]
+681 silly gunzTarPerm extractEntry LICENSE
+682 silly gunzTarPerm modified mode [ 'LICENSE', 420, 436 ]
+683 silly gunzTarPerm extractEntry README.md
+684 silly gunzTarPerm modified mode [ 'README.md', 420, 436 ]
+685 info retry fetch attempt 1 at 09:39:50
+686 info attempt registry request try #1 at 09:39:50
+687 http fetch GET https://registry.npmjs.org/lowdb/-/lowdb-1.0.0.tgz
+688 verbose request using bearer token for auth
+689 silly gunzTarPerm extractEntry index.js
+690 silly gunzTarPerm modified mode [ 'index.js', 420, 436 ]
+691 silly gunzTarPerm extractEntry install.js
+692 silly gunzTarPerm modified mode [ 'install.js', 420, 436 ]
+693 silly gunzTarPerm extractEntry README.md
+694 silly gunzTarPerm modified mode [ 'README.md', 384, 436 ]
+695 silly gunzTarPerm extractEntry gulpfile.js
+696 silly gunzTarPerm modified mode [ 'gulpfile.js', 384, 436 ]
+697 silly gunzTarPerm extractEntry component.json
+698 silly gunzTarPerm modified mode [ 'component.json', 420, 436 ]
+699 silly gunzTarPerm extractEntry index.d.ts
+700 silly gunzTarPerm modified mode [ 'index.d.ts', 420, 436 ]
+701 info retry fetch attempt 1 at 09:39:50
+702 info attempt registry request try #1 at 09:39:50
+703 http fetch GET https://registry.npmjs.org/snekfetch/-/snekfetch-4.0.4.tgz
+704 verbose request using bearer token for auth
+705 silly gunzTarPerm extractEntry index.js
+706 silly gunzTarPerm modified mode [ 'index.js', 420, 436 ]
+707 silly gunzTarPerm extractEntry license.md
+708 silly gunzTarPerm modified mode [ 'license.md', 420, 436 ]
+709 silly gunzTarPerm extractEntry .travis.yml
+710 silly gunzTarPerm extractEntry index.js
+711 silly gunzTarPerm extractEntry LICENSE
+712 silly gunzTarPerm modified mode [ 'LICENSE', 438, 436 ]
+713 silly gunzTarPerm extractEntry README.md
+714 silly gunzTarPerm modified mode [ 'README.md', 438, 436 ]
+715 http fetch 200 https://registry.npmjs.org/opusscript/-/opusscript-0.0.7.tgz
+716 silly gunzTarPerm extractEntry README.md
+717 silly gunzTarPerm modified mode [ 'README.md', 420, 436 ]
+718 silly gunzTarPerm extractEntry lib/string_decoder.js
+719 silly gunzTarPerm modified mode [ 'lib/string_decoder.js', 420, 436 ]
+720 silly gunzTarPerm extractEntry LICENSE
+721 silly gunzTarPerm modified mode [ 'LICENSE', 420, 436 ]
+722 silly gunzTarPerm extractEntry README.md
+723 silly gunzTarPerm modified mode [ 'README.md', 420, 436 ]
+724 silly gunzTarPerm extractEntry index.js
+725 silly gunzTarPerm modified mode [ 'index.js', 384, 436 ]
+726 silly gunzTarPerm extractEntry .travis.yml
+727 silly gunzTarPerm modified mode [ '.travis.yml', 384, 436 ]
+728 silly gunzTarPerm extractEntry index.js
+729 silly gunzTarPerm modified mode [ 'index.js', 420, 436 ]
+730 silly gunzTarPerm extractEntry LICENSE
+731 silly gunzTarPerm modified mode [ 'LICENSE', 420, 436 ]
+732 silly gunzTarPerm extractEntry LICENSE
+733 silly gunzTarPerm extractEntry README.md
+734 silly gunzTarPerm extractEntry readme.md
+735 silly gunzTarPerm modified mode [ 'readme.md', 420, 436 ]
+736 http fetch 200 https://registry.npmjs.org/lowdb/-/lowdb-1.0.0.tgz
+737 http fetch 200 https://registry.npmjs.org/snekfetch/-/snekfetch-4.0.4.tgz
+738 silly gunzTarPerm extractEntry src/index.js
+739 silly gunzTarPerm modified mode [ 'src/index.js', 438, 436 ]
+740 silly gunzTarPerm extractEntry src/Request.js
+741 silly gunzTarPerm modified mode [ 'src/Request.js', 438, 436 ]
+742 silly fetchAndShaCheck shasum 5243be6b22786ccce30e50c9a33eac36b20c8064
+743 verbose addTmpTarball /tmp/npm-28397-5ffc4328/registry.npmjs.org/lowdb/-/lowdb-1.0.0.tgz not in flight; adding
+744 verbose addTmpTarball already have metadata; skipping unpack for lowdb@1.0.0
+745 silly fetchAndShaCheck shasum e76a03b8476699a1f0c036d6567e386ce5fbde8e
+746 silly gunzTarPerm extractEntry README.md
+747 silly gunzTarPerm modified mode [ 'README.md', 420, 436 ]
+748 silly gunzTarPerm extractEntry test/index.js
+749 silly gunzTarPerm modified mode [ 'test/index.js', 420, 436 ]
+750 silly gunzTarPerm extractEntry LICENSE.txt
+751 silly gunzTarPerm modified mode [ 'LICENSE.txt', 384, 436 ]
+752 silly gunzTarPerm extractEntry test/index.js
+753 silly gunzTarPerm extractEntry src/structures/Channel.js
+754 silly gunzTarPerm modified mode [ 'src/structures/Channel.js', 438, 436 ]
+755 verbose addTmpTarball /tmp/npm-28397-5ffc4328/registry.npmjs.org/snekfetch/-/snekfetch-4.0.4.tgz not in flight; adding
+756 verbose addTmpTarball already have metadata; skipping unpack for snekfetch@4.0.4
+757 silly gentlyRm /home/ceibal/Escritorio/botz/node_modules/.staging/fs-c73af4d6/node_modules is being purged
+758 verbose gentlyRm don't care about contents; nuking /home/ceibal/Escritorio/botz/node_modules/.staging/fs-c73af4d6/node_modules
+759 silly gunzTarPerm extractEntry src/structures/Playlist.js
+760 silly gunzTarPerm modified mode [ 'src/structures/Playlist.js', 438, 436 ]
+761 silly gunzTarPerm extractEntry src/structures/Video.js
+762 silly gunzTarPerm modified mode [ 'src/structures/Video.js', 438, 436 ]
+763 verbose unbuild node_modules/.staging/lowdb-78cec0f3
+764 silly gentlyRm /home/ceibal/Escritorio/botz/node_modules/.staging/lowdb-78cec0f3 is being purged from base /home/ceibal/Escritorio/botz
+765 verbose gentlyRm don't care about contents; nuking /home/ceibal/Escritorio/botz/node_modules/.staging/lowdb-78cec0f3
+766 verbose unbuild node_modules/.staging/snekfetch-bd5e68d8
+767 verbose tar unpack /home/ceibal/.npm/lowdb/1.0.0/package.tgz
+768 verbose tar unpacking to /home/ceibal/Escritorio/botz/node_modules/.staging/lowdb-78cec0f3
+769 silly gentlyRm /home/ceibal/Escritorio/botz/node_modules/.staging/lowdb-78cec0f3 is being purged
+770 verbose gentlyRm don't care about contents; nuking /home/ceibal/Escritorio/botz/node_modules/.staging/lowdb-78cec0f3
+771 silly gunzTarPerm modes [ '775', '664' ]
+772 silly gentlyRm /home/ceibal/Escritorio/botz/node_modules/.staging/snekfetch-bd5e68d8 is being purged from base /home/ceibal/Escritorio/botz
+773 verbose gentlyRm don't care about contents; nuking /home/ceibal/Escritorio/botz/node_modules/.staging/snekfetch-bd5e68d8
+774 verbose tar unpack /home/ceibal/.npm/snekfetch/4.0.4/package.tgz
+775 verbose tar unpacking to /home/ceibal/Escritorio/botz/node_modules/.staging/snekfetch-bd5e68d8
+776 silly gentlyRm /home/ceibal/Escritorio/botz/node_modules/.staging/snekfetch-bd5e68d8 is being purged
+777 verbose gentlyRm don't care about contents; nuking /home/ceibal/Escritorio/botz/node_modules/.staging/snekfetch-bd5e68d8
+778 silly gunzTarPerm modes [ '775', '664' ]
+779 silly gunzTarPerm extractEntry src/util/Constants.js
+780 silly gunzTarPerm modified mode [ 'src/util/Constants.js', 438, 436 ]
+781 silly gunzTarPerm extractEntry src/util/index.js
+782 silly gunzTarPerm modified mode [ 'src/util/index.js', 438, 436 ]
+783 silly gunzTarPerm extractEntry package.json
+784 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+785 silly gunzTarPerm extractEntry package.json
+786 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+787 silly gunzTarPerm extractEntry .npmignore
+788 silly gunzTarPerm modified mode [ '.npmignore', 420, 436 ]
+789 silly gunzTarPerm extractEntry README.md
+790 silly gunzTarPerm modified mode [ 'README.md', 420, 436 ]
+791 silly fetchAndShaCheck shasum 7dd7ec55b302d26bf588e6fc3feb090b8c7da856
+792 silly gunzTarPerm extractEntry browser.js
+793 silly gunzTarPerm modified mode [ 'browser.js', 420, 436 ]
+794 silly gunzTarPerm extractEntry CHANGELOG.md
+795 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 420, 436 ]
+796 silly gentlyRm /home/ceibal/Escritorio/botz/node_modules/.staging/ms-53acf312/node_modules is being purged
+797 verbose gentlyRm don't care about contents; nuking /home/ceibal/Escritorio/botz/node_modules/.staging/ms-53acf312/node_modules
+798 silly gunzTarPerm extractEntry LICENSE
+799 silly gunzTarPerm modified mode [ 'LICENSE', 420, 436 ]
+800 silly gunzTarPerm extractEntry webpack.config.js
+801 silly gunzTarPerm modified mode [ 'webpack.config.js', 420, 436 ]
+802 silly gentlyRm /home/ceibal/Escritorio/botz/node_modules/.staging/ffmpeg-binaries-2e2fa20c/node_modules is being purged
+803 verbose gentlyRm don't care about contents; nuking /home/ceibal/Escritorio/botz/node_modules/.staging/ffmpeg-binaries-2e2fa20c/node_modules
+804 silly gentlyRm /home/ceibal/Escritorio/botz/node_modules/.staging/string_decoder-8273ed95/node_modules is being purged
+805 verbose gentlyRm don't care about contents; nuking /home/ceibal/Escritorio/botz/node_modules/.staging/string_decoder-8273ed95/node_modules
+806 verbose addTmpTarball /tmp/npm-28397-5ffc4328/registry.npmjs.org/opusscript/-/opusscript-0.0.7.tgz not in flight; adding
+807 verbose addTmpTarball already have metadata; skipping unpack for opusscript@0.0.7
+808 silly gunzTarPerm extractEntry CODE_OF_CONDUCT.md
+809 silly gunzTarPerm modified mode [ 'CODE_OF_CONDUCT.md', 420, 436 ]
+810 silly gunzTarPerm extractEntry .eslintrc.js
+811 silly gunzTarPerm modified mode [ '.eslintrc.js', 420, 436 ]
+812 silly gunzTarPerm extractEntry CONTRIBUTING.md
+813 silly gunzTarPerm modified mode [ 'CONTRIBUTING.md', 420, 436 ]
+814 silly gunzTarPerm extractEntry LICENSE
+815 silly gunzTarPerm modified mode [ 'LICENSE', 420, 436 ]
+816 silly gunzTarPerm extractEntry README.md
+817 silly gunzTarPerm modified mode [ 'README.md', 420, 436 ]
+818 silly gentlyRm /home/ceibal/Escritorio/botz/node_modules/.staging/isgd-0221b779/node_modules is being purged
+819 verbose gentlyRm don't care about contents; nuking /home/ceibal/Escritorio/botz/node_modules/.staging/isgd-0221b779/node_modules
+820 silly gunzTarPerm extractEntry sync.js
+821 silly gunzTarPerm modified mode [ 'sync.js', 420, 436 ]
+822 http fetch 200 https://registry.npmjs.org/ytdl-core/-/ytdl-core-0.29.7.tgz
+823 http fetch 200 https://registry.npmjs.org/youtube-node/-/youtube-node-1.3.3.tgz
+824 silly gentlyRm /home/ceibal/Escritorio/botz/node_modules/.staging/youtube-info-af1cbe82/node_modules is being purged
+825 verbose gentlyRm don't care about contents; nuking /home/ceibal/Escritorio/botz/node_modules/.staging/youtube-info-af1cbe82/node_modules
+826 silly gunzTarPerm extractEntry .babelrc
+827 silly gunzTarPerm modified mode [ '.babelrc', 420, 436 ]
+828 silly gunzTarPerm extractEntry adapters/Base.js
+829 silly gunzTarPerm modified mode [ 'adapters/Base.js', 420, 436 ]
+830 silly gentlyRm /home/ceibal/Escritorio/botz/node_modules/.staging/get-youtube-id-866b4007/node_modules is being purged
+831 verbose gentlyRm don't care about contents; nuking /home/ceibal/Escritorio/botz/node_modules/.staging/get-youtube-id-866b4007/node_modules
+832 silly fetchAndShaCheck shasum e63ce0b086a4543d827499bed22f53fdf4d16af2
+833 silly gunzTarPerm extractEntry src/browser/index.js
+834 silly gunzTarPerm modified mode [ 'src/browser/index.js', 420, 436 ]
+835 silly gunzTarPerm extractEntry src/index.js
+836 silly gunzTarPerm modified mode [ 'src/index.js', 420, 436 ]
+837 silly fetchAndShaCheck shasum fc4fabf9874252696569c85e8f9f82f41a9a6f92
+838 verbose unbuild node_modules/.staging/opusscript-7730acff
+839 verbose addTmpTarball /tmp/npm-28397-5ffc4328/registry.npmjs.org/ytdl-core/-/ytdl-core-0.29.7.tgz not in flight; adding
+840 verbose addTmpTarball already have metadata; skipping unpack for ytdl-core@0.29.7
+841 silly gentlyRm /home/ceibal/Escritorio/botz/node_modules/.staging/opusscript-7730acff is being purged from base /home/ceibal/Escritorio/botz
+842 verbose gentlyRm don't care about contents; nuking /home/ceibal/Escritorio/botz/node_modules/.staging/opusscript-7730acff
+843 verbose addTmpTarball /tmp/npm-28397-5ffc4328/registry.npmjs.org/youtube-node/-/youtube-node-1.3.3.tgz not in flight; adding
+844 verbose addTmpTarball already have metadata; skipping unpack for youtube-node@1.3.3
+845 verbose tar unpack /home/ceibal/.npm/opusscript/0.0.7/package.tgz
+846 verbose tar unpacking to /home/ceibal/Escritorio/botz/node_modules/.staging/opusscript-7730acff
+847 silly gentlyRm /home/ceibal/Escritorio/botz/node_modules/.staging/opusscript-7730acff is being purged
+848 verbose gentlyRm don't care about contents; nuking /home/ceibal/Escritorio/botz/node_modules/.staging/opusscript-7730acff
+849 silly gunzTarPerm extractEntry adapters/FileAsync.js
+850 silly gunzTarPerm modified mode [ 'adapters/FileAsync.js', 420, 436 ]
+851 silly gunzTarPerm extractEntry adapters/FileSync.js
+852 silly gunzTarPerm modified mode [ 'adapters/FileSync.js', 420, 436 ]
+853 silly gunzTarPerm modes [ '775', '664' ]
+854 silly gunzTarPerm extractEntry src/index.mjs
+855 silly gunzTarPerm modified mode [ 'src/index.mjs', 420, 436 ]
+856 silly gunzTarPerm extractEntry src/node/FormData.js
+857 silly gunzTarPerm modified mode [ 'src/node/FormData.js', 420, 436 ]
+858 silly gunzTarPerm extractEntry LICENSE
+859 silly gunzTarPerm modified mode [ 'LICENSE', 420, 436 ]
+860 silly gunzTarPerm extractEntry adapters/LocalStorage.js
+861 silly gunzTarPerm modified mode [ 'adapters/LocalStorage.js', 420, 436 ]
+862 silly gunzTarPerm extractEntry adapters/Memory.js
+863 silly gunzTarPerm modified mode [ 'adapters/Memory.js', 420, 436 ]
+864 verbose unbuild node_modules/.staging/ytdl-core-75536163
+865 silly gunzTarPerm extractEntry index.js
+866 silly gunzTarPerm modified mode [ 'index.js', 420, 436 ]
+867 silly gunzTarPerm extractEntry build/opusscript_native_nasm.js
+868 silly gunzTarPerm extractEntry src/node/index.js
+869 silly gunzTarPerm modified mode [ 'src/node/index.js', 420, 436 ]
+870 silly gunzTarPerm extractEntry src/node/mime.js
+871 silly gunzTarPerm modified mode [ 'src/node/mime.js', 420, 436 ]
+872 verbose unbuild node_modules/.staging/youtube-node-2caa5bf9
+873 silly gentlyRm /home/ceibal/Escritorio/botz/node_modules/.staging/ytdl-core-75536163 is being purged from base /home/ceibal/Escritorio/botz
+874 verbose gentlyRm don't care about contents; nuking /home/ceibal/Escritorio/botz/node_modules/.staging/ytdl-core-75536163
+875 verbose tar unpack /home/ceibal/.npm/ytdl-core/0.29.7/package.tgz
+876 verbose tar unpacking to /home/ceibal/Escritorio/botz/node_modules/.staging/ytdl-core-75536163
+877 silly gentlyRm /home/ceibal/Escritorio/botz/node_modules/.staging/ytdl-core-75536163 is being purged
+878 verbose gentlyRm don't care about contents; nuking /home/ceibal/Escritorio/botz/node_modules/.staging/ytdl-core-75536163
+879 silly gentlyRm /home/ceibal/Escritorio/botz/node_modules/.staging/youtube-node-2caa5bf9 is being purged from base /home/ceibal/Escritorio/botz
+880 verbose gentlyRm don't care about contents; nuking /home/ceibal/Escritorio/botz/node_modules/.staging/youtube-node-2caa5bf9
+881 silly gunzTarPerm modes [ '775', '664' ]
+882 verbose tar unpack /home/ceibal/.npm/youtube-node/1.3.3/package.tgz
+883 verbose tar unpacking to /home/ceibal/Escritorio/botz/node_modules/.staging/youtube-node-2caa5bf9
+884 silly gentlyRm /home/ceibal/Escritorio/botz/node_modules/.staging/youtube-node-2caa5bf9 is being purged
+885 verbose gentlyRm don't care about contents; nuking /home/ceibal/Escritorio/botz/node_modules/.staging/youtube-node-2caa5bf9
+886 silly gunzTarPerm modes [ '775', '664' ]
+887 silly gunzTarPerm extractEntry adapters/_stringify.js
+888 silly gunzTarPerm modified mode [ 'adapters/_stringify.js', 420, 436 ]
+889 silly gunzTarPerm extractEntry examples/README.md
+890 silly gunzTarPerm modified mode [ 'examples/README.md', 420, 436 ]
+891 silly gunzTarPerm extractEntry LICENSE
+892 silly gunzTarPerm modified mode [ 'LICENSE', 420, 436 ]
+893 silly gunzTarPerm extractEntry package.json
+894 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+895 silly gunzTarPerm extractEntry src/node/mimeOfBuffer.js
+896 silly gunzTarPerm modified mode [ 'src/node/mimeOfBuffer.js', 420, 436 ]
+897 silly gunzTarPerm extractEntry src/node/mimes.json
+898 silly gunzTarPerm modified mode [ 'src/node/mimes.json', 420, 436 ]
+899 silly gunzTarPerm extractEntry examples/fp.md
+900 silly gunzTarPerm modified mode [ 'examples/fp.md', 420, 436 ]
+901 silly gunzTarPerm extractEntry lib/common.js
+902 silly gunzTarPerm modified mode [ 'lib/common.js', 420, 436 ]
+903 silly gunzTarPerm extractEntry lib/formats.js
+904 silly gunzTarPerm modified mode [ 'lib/formats.js', 420, 436 ]
+905 silly gunzTarPerm extractEntry lib/index.js
+906 silly gunzTarPerm modified mode [ 'lib/index.js', 420, 436 ]
+907 silly gunzTarPerm extractEntry .travis.yml
+908 silly gunzTarPerm modified mode [ '.travis.yml', 420, 436 ]
+909 silly gunzTarPerm extractEntry index.js
+910 silly gunzTarPerm modified mode [ 'index.js', 420, 436 ]
+911 silly gentlyRm /home/ceibal/Escritorio/botz/node_modules/.staging/simple-youtube-api-2ac4bb54/node_modules is being purged
+912 verbose gentlyRm don't care about contents; nuking /home/ceibal/Escritorio/botz/node_modules/.staging/simple-youtube-api-2ac4bb54/node_modules
+913 silly gunzTarPerm extractEntry lib/info-extras.js
+914 silly gunzTarPerm modified mode [ 'lib/info-extras.js', 420, 436 ]
+915 silly gunzTarPerm extractEntry src/node/socket.js
+916 silly gunzTarPerm modified mode [ 'src/node/socket.js', 420, 436 ]
+917 silly gunzTarPerm extractEntry lib/fp.js
+918 silly gunzTarPerm modified mode [ 'lib/fp.js', 420, 436 ]
+919 silly gunzTarPerm extractEntry lib/main.js
+920 silly gunzTarPerm modified mode [ 'lib/main.js', 420, 436 ]
+921 silly gunzTarPerm extractEntry LICENSE
+922 silly gunzTarPerm modified mode [ 'LICENSE', 420, 436 ]
+923 silly gunzTarPerm extractEntry README.md
+924 silly gunzTarPerm modified mode [ 'README.md', 420, 436 ]
+925 silly gunzTarPerm extractEntry yarn.lock
+926 silly gunzTarPerm modified mode [ 'yarn.lock', 420, 436 ]
+927 silly gunzTarPerm extractEntry lib/info.js
+928 silly gunzTarPerm modified mode [ 'lib/info.js', 420, 436 ]
+929 silly gunzTarPerm extractEntry lib/sig.js
+930 silly gunzTarPerm modified mode [ 'lib/sig.js', 420, 436 ]
+931 silly gunzTarPerm extractEntry lib/nano.js
+932 silly gunzTarPerm modified mode [ 'lib/nano.js', 420, 436 ]
+933 silly gunzTarPerm extractEntry dist/LocalStorage.js
+934 silly gunzTarPerm modified mode [ 'dist/LocalStorage.js', 420, 436 ]
+935 silly gunzTarPerm extractEntry bin/youtube
+936 silly gunzTarPerm modified mode [ 'bin/youtube', 420, 436 ]
+937 silly gunzTarPerm extractEntry example/config.js
+938 silly gunzTarPerm modified mode [ 'example/config.js', 420, 436 ]
+939 silly gunzTarPerm extractEntry lib/util.js
+940 silly gunzTarPerm modified mode [ 'lib/util.js', 420, 436 ]
+941 silly gunzTarPerm extractEntry package.json
+942 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+943 silly gunzTarPerm extractEntry dist/LocalStorage.min.js
+944 silly gunzTarPerm modified mode [ 'dist/LocalStorage.min.js', 420, 436 ]
+945 silly gunzTarPerm extractEntry dist/low.js
+946 silly gunzTarPerm modified mode [ 'dist/low.js', 420, 436 ]
+947 silly gunzTarPerm extractEntry example/get-by-id.js
+948 silly gunzTarPerm modified mode [ 'example/get-by-id.js', 420, 436 ]
+949 silly gunzTarPerm extractEntry example/get-channel-by-id.js
+950 silly gunzTarPerm modified mode [ 'example/get-channel-by-id.js', 420, 436 ]
+951 silly gunzTarPerm extractEntry README.md
+952 silly gunzTarPerm modified mode [ 'README.md', 420, 436 ]
+953 silly gunzTarPerm extractEntry typings/index.d.ts
+954 silly gunzTarPerm modified mode [ 'typings/index.d.ts', 420, 436 ]
+955 silly gunzTarPerm extractEntry dist/low.min.js
+956 silly gunzTarPerm modified mode [ 'dist/low.min.js', 420, 436 ]
+957 silly gunzTarPerm extractEntry build/opusscript_native_wasm.js
+958 silly gunzTarPerm extractEntry package.json
+959 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+960 silly gunzTarPerm extractEntry example/get-most-popular-by-category.js
+961 silly gunzTarPerm modified mode [ 'example/get-most-popular-by-category.js', 420, 436 ]
+962 silly gunzTarPerm extractEntry example/get-most-popular.js
+963 silly gunzTarPerm modified mode [ 'example/get-most-popular.js', 420, 436 ]
+964 silly gunzTarPerm extractEntry example/get-playlist-items.js
+965 silly gunzTarPerm modified mode [ 'example/get-playlist-items.js', 420, 436 ]
+966 silly gunzTarPerm extractEntry build/COPYING.libopus
+967 silly gunzTarPerm modified mode [ 'build/COPYING.libopus', 420, 436 ]
+968 silly gunzTarPerm extractEntry example/get-playlist.js
+969 silly gunzTarPerm modified mode [ 'example/get-playlist.js', 420, 436 ]
+970 silly gunzTarPerm extractEntry README.md
+971 silly gunzTarPerm modified mode [ 'README.md', 420, 436 ]
+972 silly gunzTarPerm extractEntry index.d.ts
+973 silly gunzTarPerm modified mode [ 'index.d.ts', 420, 436 ]
+974 silly gunzTarPerm extractEntry build/opusscript_native_wasm.wasm
+975 silly gunzTarPerm modified mode [ 'build/opusscript_native_wasm.wasm', 420, 436 ]
+976 silly gunzTarPerm extractEntry example/related.js
+977 silly gunzTarPerm modified mode [ 'example/related.js', 420, 436 ]
+978 silly gunzTarPerm extractEntry example/search-pages.js
+979 silly gunzTarPerm modified mode [ 'example/search-pages.js', 420, 436 ]
+980 silly gunzTarPerm extractEntry example/search.js
+981 silly gunzTarPerm modified mode [ 'example/search.js', 420, 436 ]
+982 silly gunzTarPerm extractEntry lib/cli.js
+983 silly gunzTarPerm modified mode [ 'lib/cli.js', 420, 436 ]
+984 silly gunzTarPerm extractEntry lib/youtube.js
+985 silly gunzTarPerm modified mode [ 'lib/youtube.js', 420, 436 ]
+986 silly gunzTarPerm extractEntry test/config.conf.js
+987 silly gunzTarPerm modified mode [ 'test/config.conf.js', 420, 436 ]
+988 silly gunzTarPerm extractEntry test/youtube.js
+989 silly gunzTarPerm modified mode [ 'test/youtube.js', 420, 436 ]
+990 silly gunzTarPerm extractEntry typings/index.d.ts
+991 silly gunzTarPerm modified mode [ 'typings/index.d.ts', 420, 436 ]
+992 silly gentlyRm /home/ceibal/Escritorio/botz/node_modules/.staging/ytdl-core-75536163/node_modules is being purged
+993 verbose gentlyRm don't care about contents; nuking /home/ceibal/Escritorio/botz/node_modules/.staging/ytdl-core-75536163/node_modules
+994 silly gentlyRm /home/ceibal/Escritorio/botz/node_modules/.staging/snekfetch-bd5e68d8/node_modules is being purged
+995 verbose gentlyRm don't care about contents; nuking /home/ceibal/Escritorio/botz/node_modules/.staging/snekfetch-bd5e68d8/node_modules
+996 silly gentlyRm /home/ceibal/Escritorio/botz/node_modules/.staging/lowdb-78cec0f3/node_modules is being purged
+997 verbose gentlyRm don't care about contents; nuking /home/ceibal/Escritorio/botz/node_modules/.staging/lowdb-78cec0f3/node_modules
+998 silly gentlyRm /home/ceibal/Escritorio/botz/node_modules/.staging/youtube-node-2caa5bf9/node_modules is being purged
+999 verbose gentlyRm don't care about contents; nuking /home/ceibal/Escritorio/botz/node_modules/.staging/youtube-node-2caa5bf9/node_modules
+1000 silly gentlyRm /home/ceibal/Escritorio/botz/node_modules/.staging/opusscript-7730acff/node_modules is being purged
+1001 verbose gentlyRm don't care about contents; nuking /home/ceibal/Escritorio/botz/node_modules/.staging/opusscript-7730acff/node_modules
+1002 silly doParallel preinstall 13
+1003 silly preinstall string_decoder@1.1.1 /home/ceibal/Escritorio/botz/node_modules/.staging/string_decoder-8273ed95
+1004 info lifecycle string_decoder@1.1.1~preinstall: string_decoder@1.1.1
+1005 silly preinstall ffmpeg-binaries@4.0.0 /home/ceibal/Escritorio/botz/node_modules/.staging/ffmpeg-binaries-2e2fa20c
+1006 info lifecycle ffmpeg-binaries@4.0.0~preinstall: ffmpeg-binaries@4.0.0
+1007 silly preinstall fs@0.0.1-security /home/ceibal/Escritorio/botz/node_modules/.staging/fs-c73af4d6
+1008 info lifecycle fs@0.0.1-security~preinstall: fs@0.0.1-security
+1009 silly preinstall get-youtube-id@1.0.1 /home/ceibal/Escritorio/botz/node_modules/.staging/get-youtube-id-866b4007
+1010 info lifecycle get-youtube-id@1.0.1~preinstall: get-youtube-id@1.0.1
+1011 silly preinstall isgd@1.1.3 /home/ceibal/Escritorio/botz/node_modules/.staging/isgd-0221b779
+1012 info lifecycle isgd@1.1.3~preinstall: isgd@1.1.3
+1013 silly preinstall lowdb@1.0.0 /home/ceibal/Escritorio/botz/node_modules/.staging/lowdb-78cec0f3
+1014 info lifecycle lowdb@1.0.0~preinstall: lowdb@1.0.0
+1015 silly preinstall ms@2.1.2 /home/ceibal/Escritorio/botz/node_modules/.staging/ms-53acf312
+1016 info lifecycle ms@2.1.2~preinstall: ms@2.1.2
+1017 silly preinstall opusscript@0.0.7 /home/ceibal/Escritorio/botz/node_modules/.staging/opusscript-7730acff
+1018 info lifecycle opusscript@0.0.7~preinstall: opusscript@0.0.7
+1019 silly preinstall simple-youtube-api@5.2.1 /home/ceibal/Escritorio/botz/node_modules/.staging/simple-youtube-api-2ac4bb54
+1020 info lifecycle simple-youtube-api@5.2.1~preinstall: simple-youtube-api@5.2.1
+1021 silly preinstall snekfetch@4.0.4 /home/ceibal/Escritorio/botz/node_modules/.staging/snekfetch-bd5e68d8
+1022 info lifecycle snekfetch@4.0.4~preinstall: snekfetch@4.0.4
+1023 silly preinstall youtube-info@1.3.2 /home/ceibal/Escritorio/botz/node_modules/.staging/youtube-info-af1cbe82
+1024 info lifecycle youtube-info@1.3.2~preinstall: youtube-info@1.3.2
+1025 silly preinstall youtube-node@1.3.3 /home/ceibal/Escritorio/botz/node_modules/.staging/youtube-node-2caa5bf9
+1026 info lifecycle youtube-node@1.3.3~preinstall: youtube-node@1.3.3
+1027 silly preinstall ytdl-core@0.29.7 /home/ceibal/Escritorio/botz/node_modules/.staging/ytdl-core-75536163
+1028 info lifecycle ytdl-core@0.29.7~preinstall: ytdl-core@0.29.7
+1029 silly lifecycle string_decoder@1.1.1~preinstall: no script for preinstall, continuing
+1030 silly lifecycle ffmpeg-binaries@4.0.0~preinstall: no script for preinstall, continuing
+1031 silly lifecycle fs@0.0.1-security~preinstall: no script for preinstall, continuing
+1032 silly lifecycle get-youtube-id@1.0.1~preinstall: no script for preinstall, continuing
+1033 silly lifecycle isgd@1.1.3~preinstall: no script for preinstall, continuing
+1034 silly lifecycle lowdb@1.0.0~preinstall: no script for preinstall, continuing
+1035 silly lifecycle ms@2.1.2~preinstall: no script for preinstall, continuing
+1036 silly lifecycle opusscript@0.0.7~preinstall: no script for preinstall, continuing
+1037 silly lifecycle simple-youtube-api@5.2.1~preinstall: no script for preinstall, continuing
+1038 silly lifecycle snekfetch@4.0.4~preinstall: no script for preinstall, continuing
+1039 silly lifecycle youtube-info@1.3.2~preinstall: no script for preinstall, continuing
+1040 silly lifecycle youtube-node@1.3.3~preinstall: no script for preinstall, continuing
+1041 silly lifecycle ytdl-core@0.29.7~preinstall: no script for preinstall, continuing
+1042 silly doReverseSerial remove 0
+1043 silly doSerial move 0
+1044 silly doSerial finalize 13
+1045 silly finalize /home/ceibal/Escritorio/botz/node_modules/readable-stream/node_modules/string_decoder
+1046 silly finalize /home/ceibal/Escritorio/botz/node_modules/ffmpeg-binaries
+1047 silly finalize /home/ceibal/Escritorio/botz/node_modules/fs
+1048 silly finalize /home/ceibal/Escritorio/botz/node_modules/get-youtube-id
+1049 silly finalize /home/ceibal/Escritorio/botz/node_modules/isgd
+1050 silly finalize /home/ceibal/Escritorio/botz/node_modules/lowdb
+1051 silly finalize /home/ceibal/Escritorio/botz/node_modules/ms
+1052 silly finalize /home/ceibal/Escritorio/botz/node_modules/opusscript
+1053 silly finalize /home/ceibal/Escritorio/botz/node_modules/simple-youtube-api
+1054 silly finalize /home/ceibal/Escritorio/botz/node_modules/snekfetch
+1055 silly finalize /home/ceibal/Escritorio/botz/node_modules/youtube-info
+1056 silly finalize /home/ceibal/Escritorio/botz/node_modules/youtube-node
+1057 silly finalize /home/ceibal/Escritorio/botz/node_modules/ytdl-core
+1058 silly doSerial build 13
+1059 silly build string_decoder@1.1.1
+1060 info linkStuff string_decoder@1.1.1
+1061 silly linkStuff string_decoder@1.1.1 has /home/ceibal/Escritorio/botz/node_modules/readable-stream/node_modules as its parent node_modules
+1062 verbose linkBins string_decoder@1.1.1
+1063 verbose linkMans string_decoder@1.1.1
+1064 silly build ffmpeg-binaries@4.0.0
+1065 info linkStuff ffmpeg-binaries@4.0.0
+1066 silly linkStuff ffmpeg-binaries@4.0.0 has /home/ceibal/Escritorio/botz/node_modules as its parent node_modules
+1067 verbose linkBins ffmpeg-binaries@4.0.0
+1068 verbose linkMans ffmpeg-binaries@4.0.0
+1069 silly build fs@0.0.1-security
+1070 info linkStuff fs@0.0.1-security
+1071 silly linkStuff fs@0.0.1-security has /home/ceibal/Escritorio/botz/node_modules as its parent node_modules
+1072 verbose linkBins fs@0.0.1-security
+1073 verbose linkMans fs@0.0.1-security
+1074 silly build get-youtube-id@1.0.1
+1075 info linkStuff get-youtube-id@1.0.1
+1076 silly linkStuff get-youtube-id@1.0.1 has /home/ceibal/Escritorio/botz/node_modules as its parent node_modules
+1077 verbose linkBins get-youtube-id@1.0.1
+1078 verbose link bins [ {}, '/home/ceibal/Escritorio/botz/node_modules/.bin', false ]
+1079 verbose linkMans get-youtube-id@1.0.1
+1080 silly build isgd@1.1.3
+1081 info linkStuff isgd@1.1.3
+1082 silly linkStuff isgd@1.1.3 has /home/ceibal/Escritorio/botz/node_modules as its parent node_modules
+1083 verbose linkBins isgd@1.1.3
+1084 verbose linkMans isgd@1.1.3
+1085 silly build lowdb@1.0.0
+1086 info linkStuff lowdb@1.0.0
+1087 silly linkStuff lowdb@1.0.0 has /home/ceibal/Escritorio/botz/node_modules as its parent node_modules
+1088 verbose linkBins lowdb@1.0.0
+1089 verbose linkMans lowdb@1.0.0
+1090 silly build ms@2.1.2
+1091 info linkStuff ms@2.1.2
+1092 silly linkStuff ms@2.1.2 has /home/ceibal/Escritorio/botz/node_modules as its parent node_modules
+1093 verbose linkBins ms@2.1.2
+1094 verbose linkMans ms@2.1.2
+1095 silly build opusscript@0.0.7
+1096 info linkStuff opusscript@0.0.7
+1097 silly linkStuff opusscript@0.0.7 has /home/ceibal/Escritorio/botz/node_modules as its parent node_modules
+1098 verbose linkBins opusscript@0.0.7
+1099 verbose linkMans opusscript@0.0.7
+1100 silly build simple-youtube-api@5.2.1
+1101 info linkStuff simple-youtube-api@5.2.1
+1102 silly linkStuff simple-youtube-api@5.2.1 has /home/ceibal/Escritorio/botz/node_modules as its parent node_modules
+1103 verbose linkBins simple-youtube-api@5.2.1
+1104 verbose linkMans simple-youtube-api@5.2.1
+1105 silly build snekfetch@4.0.4
+1106 info linkStuff snekfetch@4.0.4
+1107 silly linkStuff snekfetch@4.0.4 has /home/ceibal/Escritorio/botz/node_modules as its parent node_modules
+1108 verbose linkBins snekfetch@4.0.4
+1109 verbose linkMans snekfetch@4.0.4
+1110 silly build youtube-info@1.3.2
+1111 info linkStuff youtube-info@1.3.2
+1112 silly linkStuff youtube-info@1.3.2 has /home/ceibal/Escritorio/botz/node_modules as its parent node_modules
+1113 verbose linkBins youtube-info@1.3.2
+1114 verbose linkMans youtube-info@1.3.2
+1115 silly build youtube-node@1.3.3
+1116 info linkStuff youtube-node@1.3.3
+1117 silly linkStuff youtube-node@1.3.3 has /home/ceibal/Escritorio/botz/node_modules as its parent node_modules
+1118 verbose linkBins youtube-node@1.3.3
+1119 verbose link bins [ { youtube: './bin/youtube' },
+1119 verbose link bins   '/home/ceibal/Escritorio/botz/node_modules/.bin',
+1119 verbose link bins   false ]
+1120 verbose linkMans youtube-node@1.3.3
+1121 silly build ytdl-core@0.29.7
+1122 info linkStuff ytdl-core@0.29.7
+1123 silly linkStuff ytdl-core@0.29.7 has /home/ceibal/Escritorio/botz/node_modules as its parent node_modules
+1124 verbose linkBins ytdl-core@0.29.7
+1125 verbose linkMans ytdl-core@0.29.7
+1126 silly doSerial global-link 0
+1127 silly doParallel update-linked 0
+1128 silly doSerial install 13
+1129 silly install string_decoder@1.1.1 /home/ceibal/Escritorio/botz/node_modules/.staging/string_decoder-8273ed95
+1130 info lifecycle string_decoder@1.1.1~install: string_decoder@1.1.1
+1131 silly lifecycle string_decoder@1.1.1~install: no script for install, continuing
+1132 silly install ffmpeg-binaries@4.0.0 /home/ceibal/Escritorio/botz/node_modules/.staging/ffmpeg-binaries-2e2fa20c
+1133 info lifecycle ffmpeg-binaries@4.0.0~install: ffmpeg-binaries@4.0.0
+1134 verbose lifecycle ffmpeg-binaries@4.0.0~install: unsafe-perm in lifecycle true
+1135 verbose lifecycle ffmpeg-binaries@4.0.0~install: PATH: /usr/share/npm/bin/node-gyp-bin:/home/ceibal/Escritorio/botz/node_modules/ffmpeg-binaries/node_modules/.bin:/home/ceibal/Escritorio/botz/node_modules/.bin:/home/ceibal/.local/bin:/home/ceibal/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+1136 verbose lifecycle ffmpeg-binaries@4.0.0~install: CWD: /home/ceibal/Escritorio/botz/node_modules/ffmpeg-binaries
+1137 silly lifecycle ffmpeg-binaries@4.0.0~install: Args: [ '-c', 'node install' ]
+1138 silly lifecycle ffmpeg-binaries@4.0.0~install: Returned: code: 1  signal: null
+1139 info lifecycle ffmpeg-binaries@4.0.0~install: Failed to exec install script
+1140 verbose unlock done using /home/ceibal/.npm/_locks/staging-5e35ffebd28f548b.lock for /home/ceibal/Escritorio/botz/node_modules/.staging
+1141 silly rollbackFailedOptional Starting
+1142 silly rollbackFailedOptional Finishing
+1143 silly runTopLevelLifecycles Starting
+1144 silly runTopLevelLifecycles Finishing
+1145 silly install printInstalled
+1146 warn discord.js@11.6.4 requires a peer of @discordjs/opus@^0.1.0 but none was installed.
+1147 warn discord.js@11.6.4 requires a peer of @discordjs/uws@^10.149.0 but none was installed.
+1148 warn discord.js@11.6.4 requires a peer of bufferutil@^4.0.0 but none was installed.
+1149 warn discord.js@11.6.4 requires a peer of erlpack@discordapp/erlpack but none was installed.
+1150 warn discord.js@11.6.4 requires a peer of libsodium-wrappers@^0.7.3 but none was installed.
+1151 warn discord.js@11.6.4 requires a peer of node-opus@^0.2.7 but none was installed.
+1152 warn discord.js@11.6.4 requires a peer of opusscript@^0.0.6 but none was installed.
+1153 warn discord.js@11.6.4 requires a peer of sodium@^2.0.3 but none was installed.
+1154 warn prism-media@1.2.2 requires a peer of @discordjs/opus@^0.1.0 but none was installed.
+1155 warn prism-media@1.2.2 requires a peer of ffmpeg-static@^2.4.0 || ^3.0.0 but none was installed.
+1156 warn prism-media@1.2.2 requires a peer of node-opus@^0.3.1 but none was installed.
+1157 warn prism-media@1.2.2 requires a peer of opusscript@^0.0.6 but none was installed.
+1158 warn music-bot@1.0.0 No description
+1159 warn music-bot@1.0.0 No repository field.
+1160 verbose stack Error: ffmpeg-binaries@4.0.0 install: `node install`
+1160 verbose stack Exit status 1
+1160 verbose stack     at EventEmitter.<anonymous> (/usr/share/npm/lib/utils/lifecycle.js:232:16)
+1160 verbose stack     at emitTwo (events.js:126:13)
+1160 verbose stack     at EventEmitter.emit (events.js:214:7)
+1160 verbose stack     at ChildProcess.<anonymous> (/usr/share/npm/lib/utils/spawn.js:24:14)
+1160 verbose stack     at emitTwo (events.js:126:13)
+1160 verbose stack     at ChildProcess.emit (events.js:214:7)
+1160 verbose stack     at maybeClose (internal/child_process.js:925:16)
+1160 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:209:5)
+1161 verbose pkgid ffmpeg-binaries@4.0.0
+1162 verbose cwd /home/ceibal/Escritorio/botz
+1163 error Linux 4.16.18-pa2-2bp1
+1164 error argv "/usr/bin/node" "/usr/bin/npm" "upgrade"
+1165 error node v8.10.0
+1166 error npm  v3.5.2
+1167 error code ELIFECYCLE
+1168 error ffmpeg-binaries@4.0.0 install: `node install`
+1168 error Exit status 1
+1169 error Failed at the ffmpeg-binaries@4.0.0 install script 'node install'.
+1169 error Make sure you have the latest version of node.js and npm installed.
+1169 error If you do, this is most likely a problem with the ffmpeg-binaries package,
+1169 error not with npm itself.
+1169 error Tell the author that this fails on your system:
+1169 error     node install
+1169 error You can get information on how to open an issue for this project with:
+1169 error     npm bugs ffmpeg-binaries
+1169 error Or if that isn't available, you can get their info via:
+1169 error     npm owner ls ffmpeg-binaries
+1169 error There is likely additional logging output above.
+1170 verbose exit [ 1, true ]
